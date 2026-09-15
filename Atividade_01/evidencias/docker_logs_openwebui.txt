@@ -1,0 +1,53 @@
+No WEBUI_SECRET_KEY environment variable set, loading from file.
+Generating new WEBUI_SECRET_KEY...
+Loading WEBUI_SECRET_KEY from .webui_secret_key
+Creating knowledge table
+Migrating data from document table to knowledge table
+Converting 'chat' column to JSON
+Renaming 'chat' column to 'old_chat'
+Adding new 'chat' column of type JSON
+Dropping 'old_chat' column
+Primary Key: {'constrained_columns': ['id'], 'name': None}
+Unique Constraints: [{'name': 'uq_id_user_id', 'column_names': ['id', 'user_id']}]
+Indexes: []
+Creating new primary key with 'id' and 'user_id'.
+Dropping unique constraint: uq_id_user_id
+[]
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.11.3 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+2026-09-15 23:11:06.559 | INFO     | open_webui.utils.logger:start_logger:223 - GLOBAL_LOG_LEVEL: INFO
+2026-09-15 23:11:06.621 | INFO     | open_webui.models.config:seed_defaults:266 - Seeded 345 new config defaults
+2026-09-15 23:11:06.969 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main "HTTP/1.1 200 OK"
+2026-09-15 23:11:07.276 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/1110a243fdf4706b3f48f1d95db1a4f5529b4d41?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-15 23:11:07.480 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/.gitattributes "HTTP/1.1 307 Temporary Redirect"
+2026-09-15 23:11:07.481 | WARNING  | huggingface_hub.utils._http:_warn_on_warning_headers:965 - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-09-15 23:11:07.511 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/.gitattributes?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2F.gitattributes=&etag=%222bf99854609538f90af03c921c41a0cbde670b2f%22 "HTTP/1.1 200 OK"
+2026-09-15 23:11:07.534 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/data_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-15 23:11:07.547 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/.gitattributes?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2F.gitattributes=&etag=%222bf99854609538f90af03c921c41a0cbde670b2f%22 "HTTP/1.1 200 OK"
+2026-09-15 23:11:07.550 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/xet-read-token/1110a243fdf4706b3f48f1d95db1a4f5529b4d41 "HTTP/1.1 200 OK"
+2026-09-15 23:11:07.563 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/data_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fdata_config.json=&etag=%222e85f0eac205cf444bdf97ede4935603ca6a0416%22 "HTTP/1.1 200 OK"
+2026-09-15 23:11:07.596 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/data_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fdata_config.json=&etag=%222e85f0eac205cf444bdf97ede4935603ca6a0416%22 "HTTP/1.1 200 OK"
+2026-09-15 23:11:36.281 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino/openvino_model.xml "HTTP/1.1 307 Temporary Redirect"
+2026-09-15 23:11:36.310 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino%2Fopenvino_model.xml?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fopenvino%2Fopenvino_model.xml=&etag=%225d24a16700f0198908929370f59330fb8d486b1b%22 "HTTP/1.1 200 OK"
+2026-09-15 23:11:36.347 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino%2Fopenvino_model.xml?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fopenvino%2Fopenvino_model.xml=&etag=%225d24a16700f0198908929370f59330fb8d486b1b%22 "HTTP/1.1 200 OK"
+2026-09-15 23:11:36.547 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino/openvino_model_qint8_quantized.xml "HTTP/1.1 307 Temporary Redirect"
+2026-09-15 23:11:36.582 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino%2Fopenvino_model_qint8_quantized.xml?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fopenvino%2Fopenvino_model_qint8_quantized.xml=&etag=%227152d195a075cf3f3dc3c3d6308d845f88e0117f%22 "HTTP/1.1 200 OK"
+2026-09-15 23:11:36.626 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/openvino%2Fopenvino_model_qint8_quantized.xml?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fopenvino%2Fopenvino_model_qint8_quantized.xml=&etag=%227152d195a075cf3f3dc3c3d6308d845f88e0117f%22 "HTTP/1.1 200 OK"
+2026-09-15 23:11:48.669 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/train_script.py "HTTP/1.1 307 Temporary Redirect"
+2026-09-15 23:11:49.211 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/train_script.py?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Ftrain_script.py=&etag=%2282b47b6277499b8f17d139d0c651a6f961c06124%22 "HTTP/1.1 200 OK"
+2026-09-15 23:11:49.381 | INFO     | httpx._client:_send_single_request:1025 - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/train_script.py?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Ftrain_script.py=&etag=%2282b47b6277499b8f17d139d0c651a6f961c06124%22 "HTTP/1.1 200 OK"
+2026-09-15 23:12:19.283 | INFO     | sentence_transformers.base.model:_load_modules:992 - Loading SentenceTransformer model from /app/backend/data/cache/embedding/models/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41.
+2026-09-15 23:12:19.446 | INFO     | open_webui.main:lifespan:381 - Installing external dependencies of functions and tools...
+2026-09-15 23:12:19.455 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:450 - No requirements found in frontmatter.
+2026-09-15 23:12:19.456 | INFO     | open_webui.utils.automations:scheduler_worker_loop:221 - Scheduler worker started (timer poll interval: 1s, scheduler poll interval: 10s)
