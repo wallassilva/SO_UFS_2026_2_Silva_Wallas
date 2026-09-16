@@ -1,0 +1,13 @@
+config,tamanho_entrada,repeticao,timestamp_inicio,tempo_total_s,pmem_ollama_antes,pmem_ollama_depois,nlwp_ollama_depois,log_file
+config1_padrao,curto,1,20260915_230223,11.167477233,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config1_padrao_curto_rep1_20260915_230223.log
+config1_padrao,curto,2,20260915_230239,4.641573210,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config1_padrao_curto_rep2_20260915_230239.log
+config1_padrao,longo,1,20260915_230248,61.832769948,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config1_padrao_longo_rep1_20260915_230248.log
+config1_padrao,longo,2,20260915_230355,38.602458477,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config1_padrao_longo_rep2_20260915_230355.log
+config2_concorrencia,curto,1,20260915_230439,9.052712793,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config2_concorrencia_curto_rep1_A_20260915_230439.log;/home/wallas/Projetos/SO/Atividade_01/dados/logs/config2_concorrencia_curto_rep1_B_20260915_230439.log
+config2_concorrencia,curto,2,20260915_230453,11.037261734,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config2_concorrencia_curto_rep2_A_20260915_230453.log;/home/wallas/Projetos/SO/Atividade_01/dados/logs/config2_concorrencia_curto_rep2_B_20260915_230453.log
+config2_concorrencia,longo,1,20260915_230509,123.221053256,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config2_concorrencia_longo_rep1_A_20260915_230509.log;/home/wallas/Projetos/SO/Atividade_01/dados/logs/config2_concorrencia_longo_rep1_B_20260915_230509.log
+config2_concorrencia,longo,2,20260915_230718,118.583183369,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config2_concorrencia_longo_rep2_A_20260915_230718.log;/home/wallas/Projetos/SO/Atividade_01/dados/logs/config2_concorrencia_longo_rep2_B_20260915_230718.log
+config3_ctx2048,curto,1,20260915_230921,9.945951176,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config3_ctx2048_curto_rep1_20260915_230921.json
+config3_ctx2048,curto,2,20260915_230936,4.879238323,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config3_ctx2048_curto_rep2_20260915_230936.json
+config3_ctx8192,longo,1,20260915_230946,69.707210219,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config3_ctx8192_longo_rep1_20260915_230946.json
+config3_ctx8192,longo,2,20260915_231101,58.624328186,0.2,0.2,14,/home/wallas/Projetos/SO/Atividade_01/dados/logs/config3_ctx8192_longo_rep2_20260915_231101.json
