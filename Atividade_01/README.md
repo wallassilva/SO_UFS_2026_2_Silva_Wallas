@@ -15,7 +15,7 @@ https://drive.google.com/drive/folders/1Ec1j0zYD94IpbTh_WV0odD96T1w74B9Q?usp=dri
 ```
 .
 ├── README.md
-├── relatorio_final.pdf        
+├── relatorio.pdf        
 ├── VIDEO.md
 ├── declaracao_uso_ia.md
 ├── ficha_aplicacao.md
@@ -123,6 +123,6 @@ pstree -p > evidencias/pstree.txt
 
 ## Relatório completo
 
-Ver `relatorio_final.pdf` para a documentação completa,
+Ver `relatorio.pdf` para a documentação completa,
 incluindo introdução, arquitetura, resultados dos 12 experimentos,
 discussão e limitações.
