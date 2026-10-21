@@ -1,0 +1,20 @@
+[preparar] gerando corpus pequeno: 500 docs x 1000 palavras
+500 documentos, 4.4 MB em /home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/dados/corpus_pequeno
+Traceback (most recent call last):
+  File "/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/src/experimentos.py", line 222, in <module>
+    main()
+    ~~~~^^
+  File "/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/src/experimentos.py", line 216, in main
+    ordem[g](args)
+    ~~~~~~~~^^^^^^
+  File "/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/src/experimentos.py", line 95, in preparar
+    subprocess.run([sys.executable, str(SRC / "genresearch.py"), "ingerir", "--corpus", str(corpus),
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    "--indice", str(idx), "--log", str(RAIZ / "resultados" / "logs" / f"ingestao_{nome}.log")],
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   check=True, capture_output=True, cwd=RAIZ)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.14/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/src/genresearch.py', 'ingerir', '--corpus', '/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/dados/corpus_pequeno', '--indice', '/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/dados/indice_pequeno', '--log', '/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/resultados/logs/ingestao_pequeno.log']' returned non-zero exit status 1.

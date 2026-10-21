@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/src/sincronizacao.py", line 32, in <module>
+    from genresearch import LogSeguro, validar_log  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/src/genresearch.py", line 44, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

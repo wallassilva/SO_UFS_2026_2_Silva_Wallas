@@ -1,0 +1,3 @@
+2026-10-20T21:47:37.166 MainThread inicio {"id":"c6_arquivo_ausente_sem_fallback_r3","workers":2,"produtores":2,"mmap":false,"n_req":40,"indice":"dados/indice_inexistente"}
+2026-10-20T21:47:37.167 MainThread falha {"origem":"indice","erro":"ArquivoAusente: dados/indice_inexistente/vetores.npy"}
+2026-10-20T21:47:37.167 MainThread encerramento {"status":"falha_controlada"}

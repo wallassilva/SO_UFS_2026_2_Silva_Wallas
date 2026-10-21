@@ -1,0 +1,102 @@
+2026-10-20T21:48:05.540 MainThread inicio {"id":"c6_ollama_indisponivel_r3","workers":2,"produtores":2,"mmap":false,"n_req":20,"indice":"dados/indice_pequeno"}
+2026-10-20T21:48:05.554 worker-1 consulta {"req":0}
+2026-10-20T21:48:05.554 worker-1 cache_miss {"req":0}
+2026-10-20T21:48:05.554 worker-0 consulta {"req":2}
+2026-10-20T21:48:05.554 worker-0 cache_miss {"req":2}
+2026-10-20T21:48:05.557 worker-0 recuperacao {"req":2,"trechos":4,"bytes":3419,"tokens_aprox":854,"ms":2.3}
+2026-10-20T21:48:05.557 worker-1 recuperacao {"req":0,"trechos":4,"bytes":3476,"tokens_aprox":869,"ms":3.14}
+2026-10-20T21:48:05.613 worker-1 geracao {"req":0,"ms":55.84,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.613 worker-1 falha {"req":0,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.613 worker-1 consulta {"req":4}
+2026-10-20T21:48:05.613 worker-1 cache_miss {"req":4}
+2026-10-20T21:48:05.614 worker-0 geracao {"req":2,"ms":57.66,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.614 worker-0 falha {"req":2,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.615 worker-0 consulta {"req":6}
+2026-10-20T21:48:05.615 worker-0 cache_miss {"req":6}
+2026-10-20T21:48:05.617 worker-1 recuperacao {"req":4,"trechos":4,"bytes":3621,"tokens_aprox":905,"ms":3.94}
+2026-10-20T21:48:05.618 worker-0 recuperacao {"req":6,"trechos":4,"bytes":3529,"tokens_aprox":882,"ms":3.39}
+2026-10-20T21:48:05.672 worker-1 geracao {"req":4,"ms":54.72,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.672 worker-1 falha {"req":4,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.672 worker-1 consulta {"req":8}
+2026-10-20T21:48:05.672 worker-1 cache_miss {"req":8}
+2026-10-20T21:48:05.673 worker-0 geracao {"req":6,"ms":54.56,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.673 worker-0 falha {"req":6,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.673 worker-0 consulta {"req":10}
+2026-10-20T21:48:05.673 worker-0 cache_miss {"req":10}
+2026-10-20T21:48:05.676 worker-1 recuperacao {"req":8,"trechos":4,"bytes":3554,"tokens_aprox":888,"ms":3.92}
+2026-10-20T21:48:05.677 worker-0 recuperacao {"req":10,"trechos":4,"bytes":3505,"tokens_aprox":876,"ms":4.18}
+2026-10-20T21:48:05.731 worker-1 geracao {"req":8,"ms":54.28,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.731 worker-1 falha {"req":8,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.731 worker-1 consulta {"req":12}
+2026-10-20T21:48:05.731 worker-1 cache_miss {"req":12}
+2026-10-20T21:48:05.732 worker-0 geracao {"req":10,"ms":54.66,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.732 worker-0 falha {"req":10,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.732 worker-0 consulta {"req":14}
+2026-10-20T21:48:05.732 worker-0 cache_miss {"req":14}
+2026-10-20T21:48:05.734 worker-1 recuperacao {"req":12,"trechos":4,"bytes":3556,"tokens_aprox":889,"ms":2.84}
+2026-10-20T21:48:05.735 worker-0 recuperacao {"req":14,"trechos":4,"bytes":3444,"tokens_aprox":861,"ms":3.44}
+2026-10-20T21:48:05.789 worker-1 geracao {"req":12,"ms":54.96,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.789 worker-1 falha {"req":12,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.789 worker-1 consulta {"req":16}
+2026-10-20T21:48:05.789 worker-1 cache_miss {"req":16}
+2026-10-20T21:48:05.790 worker-0 geracao {"req":14,"ms":54.29,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.790 worker-0 falha {"req":14,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.790 worker-0 consulta {"req":18}
+2026-10-20T21:48:05.790 worker-0 cache_miss {"req":18}
+2026-10-20T21:48:05.793 worker-1 recuperacao {"req":16,"trechos":4,"bytes":3511,"tokens_aprox":877,"ms":3.64}
+2026-10-20T21:48:05.795 worker-0 recuperacao {"req":18,"trechos":4,"bytes":3587,"tokens_aprox":896,"ms":5.14}
+2026-10-20T21:48:05.847 worker-1 geracao {"req":16,"ms":54.67,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.847 worker-1 falha {"req":16,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.848 worker-1 consulta {"req":1}
+2026-10-20T21:48:05.848 worker-1 cache_miss {"req":1}
+2026-10-20T21:48:05.850 worker-0 geracao {"req":18,"ms":54.81,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.850 worker-0 falha {"req":18,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.850 worker-0 consulta {"req":3}
+2026-10-20T21:48:05.850 worker-0 cache_miss {"req":3}
+2026-10-20T21:48:05.850 worker-1 recuperacao {"req":1,"trechos":4,"bytes":3544,"tokens_aprox":886,"ms":2.84}
+2026-10-20T21:48:05.852 worker-0 recuperacao {"req":3,"trechos":4,"bytes":3559,"tokens_aprox":889,"ms":2.3}
+2026-10-20T21:48:05.906 worker-1 geracao {"req":1,"ms":55.63,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.906 worker-1 falha {"req":1,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.906 worker-1 consulta {"req":5}
+2026-10-20T21:48:05.906 worker-1 cache_miss {"req":5}
+2026-10-20T21:48:05.908 worker-0 geracao {"req":3,"ms":55.21,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.908 worker-0 falha {"req":3,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.908 worker-0 consulta {"req":7}
+2026-10-20T21:48:05.908 worker-0 cache_miss {"req":7}
+2026-10-20T21:48:05.910 worker-0 recuperacao {"req":7,"trechos":4,"bytes":3448,"tokens_aprox":862,"ms":2.05}
+2026-10-20T21:48:05.912 worker-1 recuperacao {"req":5,"trechos":4,"bytes":3463,"tokens_aprox":865,"ms":5.25}
+2026-10-20T21:48:05.965 worker-0 geracao {"req":7,"ms":54.88,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.965 worker-0 falha {"req":7,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.965 worker-0 consulta {"req":9}
+2026-10-20T21:48:05.965 worker-0 cache_miss {"req":9}
+2026-10-20T21:48:05.966 worker-1 geracao {"req":5,"ms":54.02,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:05.966 worker-1 falha {"req":5,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:05.966 worker-1 consulta {"req":11}
+2026-10-20T21:48:05.966 worker-1 cache_miss {"req":11}
+2026-10-20T21:48:05.967 worker-0 recuperacao {"req":9,"trechos":4,"bytes":3571,"tokens_aprox":892,"ms":2.01}
+2026-10-20T21:48:05.968 worker-1 recuperacao {"req":11,"trechos":4,"bytes":3558,"tokens_aprox":889,"ms":1.69}
+2026-10-20T21:48:06.020 worker-0 geracao {"req":9,"ms":52.4,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:06.020 worker-0 falha {"req":9,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:06.020 worker-0 consulta {"req":13}
+2026-10-20T21:48:06.020 worker-0 cache_miss {"req":13}
+2026-10-20T21:48:06.020 worker-1 geracao {"req":11,"ms":52.23,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:06.020 worker-1 falha {"req":11,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:06.020 worker-1 consulta {"req":15}
+2026-10-20T21:48:06.020 worker-1 cache_miss {"req":15}
+2026-10-20T21:48:06.022 worker-0 recuperacao {"req":13,"trechos":4,"bytes":3591,"tokens_aprox":897,"ms":1.77}
+2026-10-20T21:48:06.022 worker-1 recuperacao {"req":15,"trechos":4,"bytes":3473,"tokens_aprox":868,"ms":1.95}
+2026-10-20T21:48:06.075 worker-0 geracao {"req":13,"ms":52.98,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:06.075 worker-0 falha {"req":13,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:06.075 worker-0 consulta {"req":17}
+2026-10-20T21:48:06.075 worker-0 cache_miss {"req":17}
+2026-10-20T21:48:06.075 worker-1 geracao {"req":15,"ms":52.89,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:06.075 worker-1 falha {"req":15,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:06.075 worker-1 consulta {"req":19}
+2026-10-20T21:48:06.075 worker-1 cache_miss {"req":19}
+2026-10-20T21:48:06.077 worker-0 recuperacao {"req":17,"trechos":4,"bytes":3469,"tokens_aprox":867,"ms":2.15}
+2026-10-20T21:48:06.078 worker-1 recuperacao {"req":19,"trechos":4,"bytes":3599,"tokens_aprox":899,"ms":3.23}
+2026-10-20T21:48:06.129 worker-0 geracao {"req":17,"ms":52.28,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:06.129 worker-0 falha {"req":17,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:06.131 worker-1 geracao {"req":19,"ms":52.22,"tentativas":2,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:48:06.131 worker-1 falha {"req":19,"origem":"geracao","erro":"<urlopen error [Errno 111] Connection refused>"}
+2026-10-20T21:48:06.145 MainThread encerramento {"status":"ok"}

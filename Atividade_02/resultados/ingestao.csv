@@ -1,0 +1,3 @@
+corpus,indice,n_chunks,dim,chunk_palavras,n_docs,bytes_corpus,bytes_vetores,bytes_chunks,bytes_indice,t_leitura_s,t_fragmentacao_s,t_embeddings_s,t_gravacao_s,t_total_s,io_rchar,io_wchar,io_read_bytes,io_write_bytes,corpus_nome
+/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/dados/corpus_pequeno,/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/dados/indice_pequeno,5000,256,100,500,4399504,5120128,4395004,9595328,0.012,0.026,0.151,0.036,0.229,4399609,9640328,0,9682944,pequeno
+/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/dados/corpus_medio,/home/wallas/Projetos/SO/Atividade_02/genresearch-servidor/dados/indice_medio,50000,256,100,2000,43987028,51200128,43939028,95939354,0.052,0.244,1.443,0.298,2.054,43987126,96119354,0,96137216,medio

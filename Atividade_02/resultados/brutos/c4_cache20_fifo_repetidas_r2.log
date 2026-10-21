@@ -1,0 +1,430 @@
+2026-10-20T21:46:34.134 MainThread inicio {"id":"c4_cache20_fifo_repetidas_r2","workers":4,"produtores":2,"mmap":false,"n_req":133,"indice":"dados/indice_medio"}
+2026-10-20T21:46:34.166 worker-1 consulta {"req":0}
+2026-10-20T21:46:34.167 worker-1 cache_miss {"req":0}
+2026-10-20T21:46:34.167 worker-3 consulta {"req":2}
+2026-10-20T21:46:34.167 worker-3 cache_miss {"req":2}
+2026-10-20T21:46:34.167 worker-0 consulta {"req":4}
+2026-10-20T21:46:34.167 worker-0 cache_miss {"req":4}
+2026-10-20T21:46:34.167 worker-2 consulta {"req":6}
+2026-10-20T21:46:34.167 worker-2 cache_miss {"req":6}
+2026-10-20T21:46:34.174 worker-2 recuperacao {"req":6,"trechos":4,"bytes":3634,"tokens_aprox":908,"ms":6.82}
+2026-10-20T21:46:34.174 worker-3 recuperacao {"req":2,"trechos":4,"bytes":3546,"tokens_aprox":886,"ms":7.27}
+2026-10-20T21:46:34.176 worker-1 recuperacao {"req":0,"trechos":4,"bytes":3565,"tokens_aprox":891,"ms":9.57}
+2026-10-20T21:46:34.177 worker-0 recuperacao {"req":4,"trechos":4,"bytes":3530,"tokens_aprox":882,"ms":9.48}
+2026-10-20T21:46:34.240 worker-3 geracao {"req":2,"ms":65.7,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3546 chars de contexto)"}
+2026-10-20T21:46:34.240 worker-3 consulta {"req":8}
+2026-10-20T21:46:34.240 worker-3 cache_miss {"req":8}
+2026-10-20T21:46:34.241 worker-2 geracao {"req":6,"ms":66.51,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3634 chars de contexto)"}
+2026-10-20T21:46:34.241 worker-2 consulta {"req":10}
+2026-10-20T21:46:34.241 worker-2 cache_miss {"req":10}
+2026-10-20T21:46:34.242 worker-1 geracao {"req":0,"ms":65.82,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3565 chars de contexto)"}
+2026-10-20T21:46:34.242 worker-1 consulta {"req":12}
+2026-10-20T21:46:34.242 worker-1 cache_hit {"req":12}
+2026-10-20T21:46:34.242 worker-1 consulta {"req":14}
+2026-10-20T21:46:34.242 worker-1 cache_miss {"req":14}
+2026-10-20T21:46:34.243 worker-0 geracao {"req":4,"ms":65.97,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3530 chars de contexto)"}
+2026-10-20T21:46:34.243 worker-0 consulta {"req":16}
+2026-10-20T21:46:34.243 worker-0 cache_hit {"req":16}
+2026-10-20T21:46:34.243 worker-0 consulta {"req":18}
+2026-10-20T21:46:34.243 worker-0 cache_miss {"req":18}
+2026-10-20T21:46:34.252 worker-3 recuperacao {"req":8,"trechos":4,"bytes":3467,"tokens_aprox":866,"ms":11.99}
+2026-10-20T21:46:34.253 worker-2 recuperacao {"req":10,"trechos":4,"bytes":3552,"tokens_aprox":888,"ms":12.12}
+2026-10-20T21:46:34.256 worker-1 recuperacao {"req":14,"trechos":4,"bytes":3530,"tokens_aprox":882,"ms":13.4}
+2026-10-20T21:46:34.263 worker-0 recuperacao {"req":18,"trechos":4,"bytes":3511,"tokens_aprox":877,"ms":20.15}
+2026-10-20T21:46:34.317 worker-3 geracao {"req":8,"ms":64.87,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3467 chars de contexto)"}
+2026-10-20T21:46:34.317 worker-3 consulta {"req":20}
+2026-10-20T21:46:34.317 worker-3 cache_miss {"req":20}
+2026-10-20T21:46:34.319 worker-2 geracao {"req":10,"ms":65.63,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3552 chars de contexto)"}
+2026-10-20T21:46:34.319 worker-2 consulta {"req":22}
+2026-10-20T21:46:34.319 worker-2 cache_miss {"req":22}
+2026-10-20T21:46:34.321 worker-1 geracao {"req":14,"ms":65.4,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3530 chars de contexto)"}
+2026-10-20T21:46:34.321 worker-1 consulta {"req":24}
+2026-10-20T21:46:34.321 worker-1 cache_hit {"req":24}
+2026-10-20T21:46:34.321 worker-1 consulta {"req":26}
+2026-10-20T21:46:34.321 worker-1 cache_miss {"req":26}
+2026-10-20T21:46:34.329 worker-0 geracao {"req":18,"ms":65.26,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3511 chars de contexto)"}
+2026-10-20T21:46:34.329 worker-0 consulta {"req":28}
+2026-10-20T21:46:34.329 worker-0 cache_miss {"req":28}
+2026-10-20T21:46:34.330 worker-3 recuperacao {"req":20,"trechos":4,"bytes":3505,"tokens_aprox":876,"ms":12.96}
+2026-10-20T21:46:34.331 worker-1 recuperacao {"req":26,"trechos":4,"bytes":3505,"tokens_aprox":876,"ms":9.22}
+2026-10-20T21:46:34.332 worker-2 recuperacao {"req":22,"trechos":4,"bytes":3552,"tokens_aprox":888,"ms":12.53}
+2026-10-20T21:46:34.341 worker-0 recuperacao {"req":28,"trechos":4,"bytes":3505,"tokens_aprox":876,"ms":12.14}
+2026-10-20T21:46:34.396 worker-3 geracao {"req":20,"ms":65.23,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3505 chars de contexto)"}
+2026-10-20T21:46:34.396 worker-3 consulta {"req":30}
+2026-10-20T21:46:34.396 worker-3 cache_miss {"req":30}
+2026-10-20T21:46:34.396 worker-1 geracao {"req":26,"ms":65.58,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3505 chars de contexto)"}
+2026-10-20T21:46:34.397 worker-1 consulta {"req":32}
+2026-10-20T21:46:34.397 worker-1 cache_miss {"req":32}
+2026-10-20T21:46:34.397 worker-2 geracao {"req":22,"ms":65.64,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3552 chars de contexto)"}
+2026-10-20T21:46:34.398 worker-2 consulta {"req":34}
+2026-10-20T21:46:34.398 worker-2 cache_hit {"req":34}
+2026-10-20T21:46:34.398 worker-2 consulta {"req":1}
+2026-10-20T21:46:34.398 worker-2 cache_miss {"req":1}
+2026-10-20T21:46:34.407 worker-0 geracao {"req":28,"ms":65.18,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3505 chars de contexto)"}
+2026-10-20T21:46:34.407 worker-0 consulta {"req":36}
+2026-10-20T21:46:34.407 worker-0 cache_miss {"req":36}
+2026-10-20T21:46:34.408 worker-3 recuperacao {"req":30,"trechos":4,"bytes":3494,"tokens_aprox":873,"ms":11.89}
+2026-10-20T21:46:34.409 worker-2 recuperacao {"req":1,"trechos":4,"bytes":3585,"tokens_aprox":896,"ms":11.73}
+2026-10-20T21:46:34.410 worker-1 recuperacao {"req":32,"trechos":4,"bytes":3585,"tokens_aprox":896,"ms":13.31}
+2026-10-20T21:46:34.418 worker-0 recuperacao {"req":36,"trechos":4,"bytes":3452,"tokens_aprox":863,"ms":11.55}
+2026-10-20T21:46:34.473 worker-3 geracao {"req":30,"ms":65.17,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3494 chars de contexto)"}
+2026-10-20T21:46:34.474 worker-3 consulta {"req":3}
+2026-10-20T21:46:34.474 worker-3 cache_miss {"req":3}
+2026-10-20T21:46:34.476 worker-2 geracao {"req":1,"ms":66.05,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3585 chars de contexto)"}
+2026-10-20T21:46:34.476 worker-2 consulta {"req":38}
+2026-10-20T21:46:34.476 worker-2 cache_hit {"req":38}
+2026-10-20T21:46:34.476 worker-2 consulta {"req":5}
+2026-10-20T21:46:34.476 worker-2 cache_hit {"req":5}
+2026-10-20T21:46:34.476 worker-2 consulta {"req":7}
+2026-10-20T21:46:34.476 worker-2 cache_hit {"req":7}
+2026-10-20T21:46:34.476 worker-2 consulta {"req":9}
+2026-10-20T21:46:34.476 worker-2 cache_miss {"req":9}
+2026-10-20T21:46:34.476 worker-1 geracao {"req":32,"ms":66.16,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3585 chars de contexto)"}
+2026-10-20T21:46:34.477 worker-1 consulta {"req":11}
+2026-10-20T21:46:34.477 worker-1 cache_hit {"req":11}
+2026-10-20T21:46:34.477 worker-1 consulta {"req":13}
+2026-10-20T21:46:34.477 worker-1 cache_miss {"req":13}
+2026-10-20T21:46:34.483 worker-0 geracao {"req":36,"ms":64.67,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3452 chars de contexto)"}
+2026-10-20T21:46:34.483 worker-0 consulta {"req":40}
+2026-10-20T21:46:34.483 worker-0 cache_miss {"req":40}
+2026-10-20T21:46:34.487 worker-3 recuperacao {"req":3,"trechos":4,"bytes":3506,"tokens_aprox":876,"ms":13.18}
+2026-10-20T21:46:34.489 worker-2 recuperacao {"req":9,"trechos":4,"bytes":3466,"tokens_aprox":866,"ms":12.58}
+2026-10-20T21:46:34.493 worker-1 recuperacao {"req":13,"trechos":4,"bytes":3565,"tokens_aprox":891,"ms":16.22}
+2026-10-20T21:46:34.495 worker-0 recuperacao {"req":40,"trechos":4,"bytes":3496,"tokens_aprox":874,"ms":11.4}
+2026-10-20T21:46:34.552 worker-3 geracao {"req":3,"ms":65.27,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3506 chars de contexto)"}
+2026-10-20T21:46:34.552 worker-3 consulta {"req":42}
+2026-10-20T21:46:34.552 worker-3 cache_miss {"req":42}
+2026-10-20T21:46:34.554 worker-2 geracao {"req":9,"ms":64.85,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3466 chars de contexto)"}
+2026-10-20T21:46:34.554 worker-2 consulta {"req":44}
+2026-10-20T21:46:34.554 worker-2 cache_miss {"req":44}
+2026-10-20T21:46:34.559 worker-1 geracao {"req":13,"ms":65.76,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3565 chars de contexto)"}
+2026-10-20T21:46:34.559 worker-1 consulta {"req":46}
+2026-10-20T21:46:34.559 worker-1 cache_hit {"req":46}
+2026-10-20T21:46:34.559 worker-1 consulta {"req":15}
+2026-10-20T21:46:34.559 worker-1 cache_hit {"req":15}
+2026-10-20T21:46:34.559 worker-1 consulta {"req":48}
+2026-10-20T21:46:34.559 worker-1 cache_hit {"req":48}
+2026-10-20T21:46:34.559 worker-1 consulta {"req":50}
+2026-10-20T21:46:34.559 worker-1 cache_miss {"req":50}
+2026-10-20T21:46:34.560 worker-0 geracao {"req":40,"ms":65.1,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3496 chars de contexto)"}
+2026-10-20T21:46:34.560 worker-0 consulta {"req":52}
+2026-10-20T21:46:34.560 worker-0 cache_miss {"req":52}
+2026-10-20T21:46:34.565 worker-3 recuperacao {"req":42,"trechos":4,"bytes":3565,"tokens_aprox":891,"ms":12.94}
+2026-10-20T21:46:34.567 worker-2 recuperacao {"req":44,"trechos":4,"bytes":3538,"tokens_aprox":884,"ms":13.19}
+2026-10-20T21:46:34.568 worker-1 recuperacao {"req":50,"trechos":4,"bytes":3464,"tokens_aprox":866,"ms":8.86}
+2026-10-20T21:46:34.573 worker-0 recuperacao {"req":52,"trechos":4,"bytes":3483,"tokens_aprox":870,"ms":12.83}
+2026-10-20T21:46:34.632 worker-3 geracao {"req":42,"ms":65.87,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3565 chars de contexto)"}
+2026-10-20T21:46:34.632 worker-3 consulta {"req":54}
+2026-10-20T21:46:34.632 worker-3 cache_hit {"req":54}
+2026-10-20T21:46:34.632 worker-3 consulta {"req":17}
+2026-10-20T21:46:34.632 worker-3 cache_hit {"req":17}
+2026-10-20T21:46:34.632 worker-3 consulta {"req":19}
+2026-10-20T21:46:34.632 worker-3 cache_hit {"req":19}
+2026-10-20T21:46:34.632 worker-3 consulta {"req":21}
+2026-10-20T21:46:34.632 worker-3 cache_hit {"req":21}
+2026-10-20T21:46:34.632 worker-3 consulta {"req":23}
+2026-10-20T21:46:34.632 worker-3 cache_miss {"req":23}
+2026-10-20T21:46:34.633 worker-2 geracao {"req":44,"ms":65.56,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3538 chars de contexto)"}
+2026-10-20T21:46:34.633 worker-2 consulta {"req":25}
+2026-10-20T21:46:34.633 worker-2 cache_miss {"req":25}
+2026-10-20T21:46:34.633 worker-1 geracao {"req":50,"ms":64.78,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3464 chars de contexto)"}
+2026-10-20T21:46:34.633 worker-1 consulta {"req":56}
+2026-10-20T21:46:34.633 worker-1 cache_miss {"req":56}
+2026-10-20T21:46:34.638 worker-0 geracao {"req":52,"ms":65.0,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3483 chars de contexto)"}
+2026-10-20T21:46:34.639 worker-0 consulta {"req":58}
+2026-10-20T21:46:34.639 worker-0 cache_hit {"req":58}
+2026-10-20T21:46:34.639 worker-0 consulta {"req":60}
+2026-10-20T21:46:34.639 worker-0 cache_miss {"req":60}
+2026-10-20T21:46:34.645 worker-3 recuperacao {"req":23,"trechos":4,"bytes":3605,"tokens_aprox":901,"ms":13.13}
+2026-10-20T21:46:34.647 worker-1 recuperacao {"req":56,"trechos":4,"bytes":3508,"tokens_aprox":877,"ms":13.39}
+2026-10-20T21:46:34.649 worker-2 recuperacao {"req":25,"trechos":4,"bytes":3507,"tokens_aprox":876,"ms":15.95}
+2026-10-20T21:46:34.653 worker-0 recuperacao {"req":60,"trechos":4,"bytes":3485,"tokens_aprox":871,"ms":14.05}
+2026-10-20T21:46:34.712 worker-3 geracao {"req":23,"ms":66.3,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3605 chars de contexto)"}
+2026-10-20T21:46:34.712 worker-3 consulta {"req":27}
+2026-10-20T21:46:34.712 worker-3 cache_miss {"req":27}
+2026-10-20T21:46:34.712 worker-1 geracao {"req":56,"ms":65.22,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3508 chars de contexto)"}
+2026-10-20T21:46:34.712 worker-1 consulta {"req":62}
+2026-10-20T21:46:34.712 worker-1 cache_miss {"req":62}
+2026-10-20T21:46:34.714 worker-2 geracao {"req":25,"ms":65.26,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3507 chars de contexto)"}
+2026-10-20T21:46:34.715 worker-2 consulta {"req":64}
+2026-10-20T21:46:34.715 worker-2 cache_miss {"req":64}
+2026-10-20T21:46:34.718 worker-0 geracao {"req":60,"ms":65.02,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3485 chars de contexto)"}
+2026-10-20T21:46:34.719 worker-0 consulta {"req":66}
+2026-10-20T21:46:34.719 worker-0 cache_hit {"req":66}
+2026-10-20T21:46:34.719 worker-0 consulta {"req":68}
+2026-10-20T21:46:34.719 worker-0 cache_hit {"req":68}
+2026-10-20T21:46:34.719 worker-0 consulta {"req":70}
+2026-10-20T21:46:34.719 worker-0 cache_miss {"req":70}
+2026-10-20T21:46:34.721 worker-1 recuperacao {"req":62,"trechos":4,"bytes":3565,"tokens_aprox":891,"ms":8.13}
+2026-10-20T21:46:34.724 worker-3 recuperacao {"req":27,"trechos":4,"bytes":3606,"tokens_aprox":901,"ms":11.98}
+2026-10-20T21:46:34.727 worker-2 recuperacao {"req":64,"trechos":4,"bytes":3530,"tokens_aprox":882,"ms":12.17}
+2026-10-20T21:46:34.732 worker-0 recuperacao {"req":70,"trechos":4,"bytes":3632,"tokens_aprox":908,"ms":13.11}
+2026-10-20T21:46:34.787 worker-1 geracao {"req":62,"ms":65.89,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3565 chars de contexto)"}
+2026-10-20T21:46:34.787 worker-1 consulta {"req":72}
+2026-10-20T21:46:34.787 worker-1 cache_hit {"req":72}
+2026-10-20T21:46:34.787 worker-1 consulta {"req":74}
+2026-10-20T21:46:34.787 worker-1 cache_miss {"req":74}
+2026-10-20T21:46:34.790 worker-3 geracao {"req":27,"ms":66.24,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3606 chars de contexto)"}
+2026-10-20T21:46:34.790 worker-3 consulta {"req":76}
+2026-10-20T21:46:34.790 worker-3 cache_hit {"req":76}
+2026-10-20T21:46:34.791 worker-3 consulta {"req":78}
+2026-10-20T21:46:34.791 worker-3 cache_miss {"req":78}
+2026-10-20T21:46:34.793 worker-2 geracao {"req":64,"ms":65.47,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3530 chars de contexto)"}
+2026-10-20T21:46:34.793 worker-2 consulta {"req":80}
+2026-10-20T21:46:34.793 worker-2 cache_miss {"req":80}
+2026-10-20T21:46:34.794 worker-1 recuperacao {"req":74,"trechos":4,"bytes":3606,"tokens_aprox":901,"ms":7.33}
+2026-10-20T21:46:34.799 worker-0 geracao {"req":70,"ms":66.47,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3632 chars de contexto)"}
+2026-10-20T21:46:34.799 worker-0 consulta {"req":82}
+2026-10-20T21:46:34.799 worker-0 cache_miss {"req":82}
+2026-10-20T21:46:34.802 worker-3 recuperacao {"req":78,"trechos":4,"bytes":3539,"tokens_aprox":884,"ms":11.08}
+2026-10-20T21:46:34.807 worker-2 recuperacao {"req":80,"trechos":4,"bytes":3590,"tokens_aprox":897,"ms":13.84}
+2026-10-20T21:46:34.808 worker-0 recuperacao {"req":82,"trechos":4,"bytes":3546,"tokens_aprox":886,"ms":9.32}
+2026-10-20T21:46:34.861 worker-1 geracao {"req":74,"ms":66.28,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3606 chars de contexto)"}
+2026-10-20T21:46:34.861 worker-1 consulta {"req":84}
+2026-10-20T21:46:34.861 worker-1 cache_hit {"req":84}
+2026-10-20T21:46:34.861 worker-1 consulta {"req":86}
+2026-10-20T21:46:34.861 worker-1 cache_miss {"req":86}
+2026-10-20T21:46:34.867 worker-3 geracao {"req":78,"ms":65.57,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3539 chars de contexto)"}
+2026-10-20T21:46:34.868 worker-3 consulta {"req":29}
+2026-10-20T21:46:34.868 worker-3 cache_miss {"req":29}
+2026-10-20T21:46:34.868 worker-1 recuperacao {"req":86,"trechos":4,"bytes":3552,"tokens_aprox":888,"ms":7.08}
+2026-10-20T21:46:34.873 worker-2 geracao {"req":80,"ms":66.07,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3590 chars de contexto)"}
+2026-10-20T21:46:34.873 worker-2 consulta {"req":31}
+2026-10-20T21:46:34.873 worker-2 cache_miss {"req":31}
+2026-10-20T21:46:34.874 worker-0 geracao {"req":82,"ms":65.63,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3546 chars de contexto)"}
+2026-10-20T21:46:34.874 worker-0 consulta {"req":33}
+2026-10-20T21:46:34.875 worker-0 cache_miss {"req":33}
+2026-10-20T21:46:34.879 worker-3 recuperacao {"req":29,"trechos":4,"bytes":3543,"tokens_aprox":885,"ms":11.62}
+2026-10-20T21:46:34.890 worker-2 recuperacao {"req":31,"trechos":4,"bytes":3567,"tokens_aprox":891,"ms":17.18}
+2026-10-20T21:46:34.892 worker-0 recuperacao {"req":33,"trechos":4,"bytes":3560,"tokens_aprox":890,"ms":17.43}
+2026-10-20T21:46:34.934 worker-1 geracao {"req":86,"ms":65.64,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3552 chars de contexto)"}
+2026-10-20T21:46:34.934 worker-1 consulta {"req":88}
+2026-10-20T21:46:34.934 worker-1 cache_miss {"req":88}
+2026-10-20T21:46:34.941 worker-1 recuperacao {"req":88,"trechos":4,"bytes":3560,"tokens_aprox":890,"ms":6.66}
+2026-10-20T21:46:34.945 worker-3 geracao {"req":29,"ms":65.62,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3543 chars de contexto)"}
+2026-10-20T21:46:34.945 worker-3 consulta {"req":35}
+2026-10-20T21:46:34.945 worker-3 cache_hit {"req":35}
+2026-10-20T21:46:34.945 worker-3 consulta {"req":90}
+2026-10-20T21:46:34.945 worker-3 cache_hit {"req":90}
+2026-10-20T21:46:34.946 worker-3 consulta {"req":92}
+2026-10-20T21:46:34.946 worker-3 cache_hit {"req":92}
+2026-10-20T21:46:34.946 worker-3 consulta {"req":94}
+2026-10-20T21:46:34.946 worker-3 cache_hit {"req":94}
+2026-10-20T21:46:34.946 worker-3 consulta {"req":37}
+2026-10-20T21:46:34.946 worker-3 cache_miss {"req":37}
+2026-10-20T21:46:34.956 worker-2 geracao {"req":31,"ms":65.84,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3567 chars de contexto)"}
+2026-10-20T21:46:34.957 worker-2 consulta {"req":39}
+2026-10-20T21:46:34.957 worker-2 cache_miss {"req":39}
+2026-10-20T21:46:34.958 worker-0 geracao {"req":33,"ms":65.73,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3560 chars de contexto)"}
+2026-10-20T21:46:34.958 worker-0 consulta {"req":96}
+2026-10-20T21:46:34.958 worker-0 cache_hit {"req":96}
+2026-10-20T21:46:34.958 worker-0 consulta {"req":98}
+2026-10-20T21:46:34.958 worker-0 cache_miss {"req":98}
+2026-10-20T21:46:34.959 worker-3 recuperacao {"req":37,"trechos":4,"bytes":3495,"tokens_aprox":873,"ms":12.99}
+2026-10-20T21:46:34.970 worker-2 recuperacao {"req":39,"trechos":4,"bytes":3452,"tokens_aprox":863,"ms":12.92}
+2026-10-20T21:46:34.974 worker-0 recuperacao {"req":98,"trechos":4,"bytes":3595,"tokens_aprox":898,"ms":15.76}
+2026-10-20T21:46:35.007 worker-1 geracao {"req":88,"ms":65.71,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3560 chars de contexto)"}
+2026-10-20T21:46:35.007 worker-1 consulta {"req":100}
+2026-10-20T21:46:35.007 worker-1 cache_hit {"req":100}
+2026-10-20T21:46:35.007 worker-1 consulta {"req":41}
+2026-10-20T21:46:35.007 worker-1 cache_miss {"req":41}
+2026-10-20T21:46:35.016 worker-1 recuperacao {"req":41,"trechos":4,"bytes":3506,"tokens_aprox":876,"ms":9.01}
+2026-10-20T21:46:35.024 worker-3 geracao {"req":37,"ms":65.15,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3495 chars de contexto)"}
+2026-10-20T21:46:35.024 worker-3 consulta {"req":43}
+2026-10-20T21:46:35.024 worker-3 cache_hit {"req":43}
+2026-10-20T21:46:35.024 worker-3 consulta {"req":45}
+2026-10-20T21:46:35.024 worker-3 cache_hit {"req":45}
+2026-10-20T21:46:35.024 worker-3 consulta {"req":47}
+2026-10-20T21:46:35.024 worker-3 cache_hit {"req":47}
+2026-10-20T21:46:35.024 worker-3 consulta {"req":102}
+2026-10-20T21:46:35.024 worker-3 cache_miss {"req":102}
+2026-10-20T21:46:35.031 worker-3 recuperacao {"req":102,"trechos":4,"bytes":3505,"tokens_aprox":876,"ms":6.94}
+2026-10-20T21:46:35.035 worker-2 geracao {"req":39,"ms":64.78,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3452 chars de contexto)"}
+2026-10-20T21:46:35.035 worker-2 consulta {"req":49}
+2026-10-20T21:46:35.035 worker-2 cache_hit {"req":49}
+2026-10-20T21:46:35.035 worker-2 consulta {"req":104}
+2026-10-20T21:46:35.035 worker-2 cache_miss {"req":104}
+2026-10-20T21:46:35.040 worker-0 geracao {"req":98,"ms":66.1,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3595 chars de contexto)"}
+2026-10-20T21:46:35.041 worker-0 consulta {"req":106}
+2026-10-20T21:46:35.041 worker-0 cache_miss {"req":106}
+2026-10-20T21:46:35.049 worker-2 recuperacao {"req":104,"trechos":4,"bytes":3496,"tokens_aprox":874,"ms":13.56}
+2026-10-20T21:46:35.053 worker-0 recuperacao {"req":106,"trechos":4,"bytes":3557,"tokens_aprox":889,"ms":12.58}
+2026-10-20T21:46:35.082 worker-1 geracao {"req":41,"ms":65.27,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3506 chars de contexto)"}
+2026-10-20T21:46:35.082 worker-1 consulta {"req":108}
+2026-10-20T21:46:35.082 worker-1 cache_miss {"req":108}
+2026-10-20T21:46:35.091 worker-1 recuperacao {"req":108,"trechos":4,"bytes":3566,"tokens_aprox":891,"ms":8.75}
+2026-10-20T21:46:35.097 worker-3 geracao {"req":102,"ms":65.29,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3505 chars de contexto)"}
+2026-10-20T21:46:35.097 worker-3 consulta {"req":110}
+2026-10-20T21:46:35.097 worker-3 cache_miss {"req":110}
+2026-10-20T21:46:35.107 worker-3 recuperacao {"req":110,"trechos":4,"bytes":3544,"tokens_aprox":886,"ms":10.22}
+2026-10-20T21:46:35.114 worker-2 geracao {"req":104,"ms":65.19,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3496 chars de contexto)"}
+2026-10-20T21:46:35.114 worker-2 consulta {"req":112}
+2026-10-20T21:46:35.114 worker-2 cache_miss {"req":112}
+2026-10-20T21:46:35.119 worker-0 geracao {"req":106,"ms":65.71,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3557 chars de contexto)"}
+2026-10-20T21:46:35.119 worker-0 consulta {"req":114}
+2026-10-20T21:46:35.120 worker-0 cache_miss {"req":114}
+2026-10-20T21:46:35.123 worker-2 recuperacao {"req":112,"trechos":4,"bytes":3557,"tokens_aprox":889,"ms":8.75}
+2026-10-20T21:46:35.132 worker-0 recuperacao {"req":114,"trechos":4,"bytes":3534,"tokens_aprox":883,"ms":12.64}
+2026-10-20T21:46:35.157 worker-1 geracao {"req":108,"ms":65.83,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3566 chars de contexto)"}
+2026-10-20T21:46:35.157 worker-1 consulta {"req":116}
+2026-10-20T21:46:35.157 worker-1 cache_hit {"req":116}
+2026-10-20T21:46:35.157 worker-1 consulta {"req":118}
+2026-10-20T21:46:35.157 worker-1 cache_hit {"req":118}
+2026-10-20T21:46:35.157 worker-1 consulta {"req":120}
+2026-10-20T21:46:35.157 worker-1 cache_miss {"req":120}
+2026-10-20T21:46:35.167 worker-1 recuperacao {"req":120,"trechos":4,"bytes":3492,"tokens_aprox":873,"ms":9.79}
+2026-10-20T21:46:35.173 worker-3 geracao {"req":110,"ms":65.58,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3544 chars de contexto)"}
+2026-10-20T21:46:35.173 worker-3 consulta {"req":51}
+2026-10-20T21:46:35.173 worker-3 cache_miss {"req":51}
+2026-10-20T21:46:35.183 worker-3 recuperacao {"req":51,"trechos":4,"bytes":3531,"tokens_aprox":882,"ms":9.74}
+2026-10-20T21:46:35.189 worker-2 geracao {"req":112,"ms":65.8,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3557 chars de contexto)"}
+2026-10-20T21:46:35.189 worker-2 consulta {"req":53}
+2026-10-20T21:46:35.189 worker-2 cache_miss {"req":53}
+2026-10-20T21:46:35.196 worker-2 recuperacao {"req":53,"trechos":4,"bytes":3494,"tokens_aprox":873,"ms":7.12}
+2026-10-20T21:46:35.198 worker-0 geracao {"req":114,"ms":65.58,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3534 chars de contexto)"}
+2026-10-20T21:46:35.198 worker-0 consulta {"req":122}
+2026-10-20T21:46:35.198 worker-0 cache_hit {"req":122}
+2026-10-20T21:46:35.198 worker-0 consulta {"req":124}
+2026-10-20T21:46:35.198 worker-0 cache_hit {"req":124}
+2026-10-20T21:46:35.198 worker-0 consulta {"req":126}
+2026-10-20T21:46:35.198 worker-0 cache_hit {"req":126}
+2026-10-20T21:46:35.198 worker-0 consulta {"req":128}
+2026-10-20T21:46:35.198 worker-0 cache_hit {"req":128}
+2026-10-20T21:46:35.198 worker-0 consulta {"req":55}
+2026-10-20T21:46:35.198 worker-0 cache_hit {"req":55}
+2026-10-20T21:46:35.199 worker-0 consulta {"req":57}
+2026-10-20T21:46:35.199 worker-0 cache_miss {"req":57}
+2026-10-20T21:46:35.206 worker-0 recuperacao {"req":57,"trechos":4,"bytes":3485,"tokens_aprox":871,"ms":7.33}
+2026-10-20T21:46:35.232 worker-1 geracao {"req":120,"ms":65.18,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3492 chars de contexto)"}
+2026-10-20T21:46:35.232 worker-1 consulta {"req":59}
+2026-10-20T21:46:35.232 worker-1 cache_miss {"req":59}
+2026-10-20T21:46:35.243 worker-1 recuperacao {"req":59,"trechos":4,"bytes":3594,"tokens_aprox":898,"ms":10.26}
+2026-10-20T21:46:35.249 worker-3 geracao {"req":51,"ms":65.46,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3531 chars de contexto)"}
+2026-10-20T21:46:35.249 worker-3 consulta {"req":130}
+2026-10-20T21:46:35.249 worker-3 cache_miss {"req":130}
+2026-10-20T21:46:35.259 worker-3 recuperacao {"req":130,"trechos":4,"bytes":3523,"tokens_aprox":880,"ms":9.98}
+2026-10-20T21:46:35.262 worker-2 geracao {"req":53,"ms":65.09,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3494 chars de contexto)"}
+2026-10-20T21:46:35.262 worker-2 consulta {"req":61}
+2026-10-20T21:46:35.262 worker-2 cache_miss {"req":61}
+2026-10-20T21:46:35.269 worker-2 recuperacao {"req":61,"trechos":4,"bytes":3464,"tokens_aprox":866,"ms":7.07}
+2026-10-20T21:46:35.271 worker-0 geracao {"req":57,"ms":65.0,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3485 chars de contexto)"}
+2026-10-20T21:46:35.271 worker-0 consulta {"req":132}
+2026-10-20T21:46:35.271 worker-0 cache_hit {"req":132}
+2026-10-20T21:46:35.271 worker-0 consulta {"req":63}
+2026-10-20T21:46:35.271 worker-0 cache_miss {"req":63}
+2026-10-20T21:46:35.278 worker-0 recuperacao {"req":63,"trechos":4,"bytes":3565,"tokens_aprox":891,"ms":6.94}
+2026-10-20T21:46:35.309 worker-1 geracao {"req":59,"ms":66.09,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3594 chars de contexto)"}
+2026-10-20T21:46:35.309 worker-1 consulta {"req":65}
+2026-10-20T21:46:35.309 worker-1 cache_miss {"req":65}
+2026-10-20T21:46:35.315 worker-1 recuperacao {"req":65,"trechos":4,"bytes":3505,"tokens_aprox":876,"ms":6.1}
+2026-10-20T21:46:35.324 worker-3 geracao {"req":130,"ms":65.43,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3523 chars de contexto)"}
+2026-10-20T21:46:35.325 worker-3 consulta {"req":67}
+2026-10-20T21:46:35.325 worker-3 cache_miss {"req":67}
+2026-10-20T21:46:35.334 worker-2 geracao {"req":61,"ms":64.78,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3464 chars de contexto)"}
+2026-10-20T21:46:35.334 worker-2 consulta {"req":69}
+2026-10-20T21:46:35.334 worker-2 cache_hit {"req":69}
+2026-10-20T21:46:35.334 worker-2 consulta {"req":71}
+2026-10-20T21:46:35.334 worker-2 cache_miss {"req":71}
+2026-10-20T21:46:35.334 worker-3 recuperacao {"req":67,"trechos":4,"bytes":3569,"tokens_aprox":892,"ms":9.77}
+2026-10-20T21:46:35.341 worker-2 recuperacao {"req":71,"trechos":4,"bytes":3546,"tokens_aprox":886,"ms":6.43}
+2026-10-20T21:46:35.344 worker-0 geracao {"req":63,"ms":65.86,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3565 chars de contexto)"}
+2026-10-20T21:46:35.344 worker-0 consulta {"req":73}
+2026-10-20T21:46:35.344 worker-0 cache_miss {"req":73}
+2026-10-20T21:46:35.351 worker-0 recuperacao {"req":73,"trechos":4,"bytes":3546,"tokens_aprox":886,"ms":6.75}
+2026-10-20T21:46:35.381 worker-1 geracao {"req":65,"ms":65.28,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3505 chars de contexto)"}
+2026-10-20T21:46:35.381 worker-1 consulta {"req":75}
+2026-10-20T21:46:35.381 worker-1 cache_miss {"req":75}
+2026-10-20T21:46:35.393 worker-1 recuperacao {"req":75,"trechos":4,"bytes":3509,"tokens_aprox":877,"ms":11.63}
+2026-10-20T21:46:35.400 worker-3 geracao {"req":67,"ms":65.84,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3569 chars de contexto)"}
+2026-10-20T21:46:35.401 worker-3 consulta {"req":77}
+2026-10-20T21:46:35.401 worker-3 cache_miss {"req":77}
+2026-10-20T21:46:35.406 worker-2 geracao {"req":71,"ms":65.59,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3546 chars de contexto)"}
+2026-10-20T21:46:35.406 worker-2 consulta {"req":79}
+2026-10-20T21:46:35.407 worker-2 cache_miss {"req":79}
+2026-10-20T21:46:35.409 worker-3 recuperacao {"req":77,"trechos":4,"bytes":3590,"tokens_aprox":897,"ms":8.18}
+2026-10-20T21:46:35.415 worker-2 recuperacao {"req":79,"trechos":4,"bytes":3530,"tokens_aprox":882,"ms":7.96}
+2026-10-20T21:46:35.417 worker-0 geracao {"req":73,"ms":65.59,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3546 chars de contexto)"}
+2026-10-20T21:46:35.417 worker-0 consulta {"req":81}
+2026-10-20T21:46:35.417 worker-0 cache_hit {"req":81}
+2026-10-20T21:46:35.417 worker-0 consulta {"req":83}
+2026-10-20T21:46:35.417 worker-0 cache_hit {"req":83}
+2026-10-20T21:46:35.417 worker-0 consulta {"req":85}
+2026-10-20T21:46:35.418 worker-0 cache_miss {"req":85}
+2026-10-20T21:46:35.430 worker-0 recuperacao {"req":85,"trechos":4,"bytes":3511,"tokens_aprox":877,"ms":12.36}
+2026-10-20T21:46:35.458 worker-1 geracao {"req":75,"ms":65.33,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3509 chars de contexto)"}
+2026-10-20T21:46:35.458 worker-1 consulta {"req":87}
+2026-10-20T21:46:35.458 worker-1 cache_miss {"req":87}
+2026-10-20T21:46:35.471 worker-1 recuperacao {"req":87,"trechos":4,"bytes":3511,"tokens_aprox":877,"ms":12.85}
+2026-10-20T21:46:35.475 worker-3 geracao {"req":77,"ms":66.06,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3590 chars de contexto)"}
+2026-10-20T21:46:35.475 worker-3 consulta {"req":89}
+2026-10-20T21:46:35.475 worker-3 cache_miss {"req":89}
+2026-10-20T21:46:35.480 worker-2 geracao {"req":79,"ms":65.4,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3530 chars de contexto)"}
+2026-10-20T21:46:35.480 worker-2 consulta {"req":91}
+2026-10-20T21:46:35.480 worker-2 cache_hit {"req":91}
+2026-10-20T21:46:35.480 worker-2 consulta {"req":93}
+2026-10-20T21:46:35.481 worker-2 cache_miss {"req":93}
+2026-10-20T21:46:35.484 worker-3 recuperacao {"req":89,"trechos":4,"bytes":3539,"tokens_aprox":884,"ms":8.49}
+2026-10-20T21:46:35.489 worker-2 recuperacao {"req":93,"trechos":4,"bytes":3508,"tokens_aprox":877,"ms":8.31}
+2026-10-20T21:46:35.495 worker-0 geracao {"req":85,"ms":65.32,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3511 chars de contexto)"}
+2026-10-20T21:46:35.496 worker-0 consulta {"req":95}
+2026-10-20T21:46:35.496 worker-0 cache_miss {"req":95}
+2026-10-20T21:46:35.507 worker-0 recuperacao {"req":95,"trechos":4,"bytes":3505,"tokens_aprox":876,"ms":11.34}
+2026-10-20T21:46:35.537 worker-1 geracao {"req":87,"ms":65.28,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3511 chars de contexto)"}
+2026-10-20T21:46:35.537 worker-1 consulta {"req":97}
+2026-10-20T21:46:35.537 worker-1 cache_miss {"req":97}
+2026-10-20T21:46:35.544 worker-1 recuperacao {"req":97,"trechos":4,"bytes":3506,"tokens_aprox":876,"ms":7.12}
+2026-10-20T21:46:35.550 worker-3 geracao {"req":89,"ms":65.65,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3539 chars de contexto)"}
+2026-10-20T21:46:35.550 worker-3 consulta {"req":99}
+2026-10-20T21:46:35.550 worker-3 cache_hit {"req":99}
+2026-10-20T21:46:35.550 worker-3 consulta {"req":101}
+2026-10-20T21:46:35.550 worker-3 cache_hit {"req":101}
+2026-10-20T21:46:35.550 worker-3 consulta {"req":103}
+2026-10-20T21:46:35.550 worker-3 cache_miss {"req":103}
+2026-10-20T21:46:35.554 worker-2 geracao {"req":93,"ms":65.23,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3508 chars de contexto)"}
+2026-10-20T21:46:35.555 worker-2 consulta {"req":105}
+2026-10-20T21:46:35.555 worker-2 cache_miss {"req":105}
+2026-10-20T21:46:35.560 worker-3 recuperacao {"req":103,"trechos":4,"bytes":3496,"tokens_aprox":874,"ms":10.01}
+2026-10-20T21:46:35.564 worker-2 recuperacao {"req":105,"trechos":4,"bytes":3538,"tokens_aprox":884,"ms":9.33}
+2026-10-20T21:46:35.572 worker-0 geracao {"req":95,"ms":65.21,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3505 chars de contexto)"}
+2026-10-20T21:46:35.573 worker-0 consulta {"req":107}
+2026-10-20T21:46:35.573 worker-0 cache_hit {"req":107}
+2026-10-20T21:46:35.573 worker-0 consulta {"req":109}
+2026-10-20T21:46:35.573 worker-0 cache_hit {"req":109}
+2026-10-20T21:46:35.573 worker-0 consulta {"req":111}
+2026-10-20T21:46:35.573 worker-0 cache_hit {"req":111}
+2026-10-20T21:46:35.573 worker-0 consulta {"req":113}
+2026-10-20T21:46:35.573 worker-0 cache_miss {"req":113}
+2026-10-20T21:46:35.583 worker-0 recuperacao {"req":113,"trechos":4,"bytes":3483,"tokens_aprox":870,"ms":10.26}
+2026-10-20T21:46:35.609 worker-1 geracao {"req":97,"ms":65.22,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3506 chars de contexto)"}
+2026-10-20T21:46:35.610 worker-1 consulta {"req":115}
+2026-10-20T21:46:35.610 worker-1 cache_miss {"req":115}
+2026-10-20T21:46:35.617 worker-1 recuperacao {"req":115,"trechos":4,"bytes":3560,"tokens_aprox":890,"ms":7.11}
+2026-10-20T21:46:35.626 worker-3 geracao {"req":103,"ms":65.24,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3496 chars de contexto)"}
+2026-10-20T21:46:35.626 worker-3 consulta {"req":117}
+2026-10-20T21:46:35.626 worker-3 cache_miss {"req":117}
+2026-10-20T21:46:35.630 worker-2 geracao {"req":105,"ms":65.53,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3538 chars de contexto)"}
+2026-10-20T21:46:35.630 worker-2 consulta {"req":119}
+2026-10-20T21:46:35.630 worker-2 cache_hit {"req":119}
+2026-10-20T21:46:35.630 worker-2 consulta {"req":121}
+2026-10-20T21:46:35.630 worker-2 cache_hit {"req":121}
+2026-10-20T21:46:35.630 worker-2 consulta {"req":123}
+2026-10-20T21:46:35.630 worker-2 cache_hit {"req":123}
+2026-10-20T21:46:35.630 worker-2 consulta {"req":125}
+2026-10-20T21:46:35.630 worker-2 cache_miss {"req":125}
+2026-10-20T21:46:35.640 worker-3 recuperacao {"req":117,"trechos":4,"bytes":3475,"tokens_aprox":868,"ms":14.06}
+2026-10-20T21:46:35.640 worker-2 recuperacao {"req":125,"trechos":4,"bytes":3560,"tokens_aprox":890,"ms":9.81}
+2026-10-20T21:46:35.648 worker-0 geracao {"req":113,"ms":64.97,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3483 chars de contexto)"}
+2026-10-20T21:46:35.648 worker-0 consulta {"req":127}
+2026-10-20T21:46:35.648 worker-0 cache_hit {"req":127}
+2026-10-20T21:46:35.649 worker-0 consulta {"req":129}
+2026-10-20T21:46:35.649 worker-0 cache_miss {"req":129}
+2026-10-20T21:46:35.656 worker-0 recuperacao {"req":129,"trechos":4,"bytes":3506,"tokens_aprox":876,"ms":7.22}
+2026-10-20T21:46:35.683 worker-1 geracao {"req":115,"ms":65.7,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3560 chars de contexto)"}
+2026-10-20T21:46:35.683 worker-1 consulta {"req":131}
+2026-10-20T21:46:35.683 worker-1 cache_miss {"req":131}
+2026-10-20T21:46:35.690 worker-1 recuperacao {"req":131,"trechos":4,"bytes":3466,"tokens_aprox":866,"ms":6.66}
+2026-10-20T21:46:35.705 worker-3 geracao {"req":117,"ms":65.01,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3475 chars de contexto)"}
+2026-10-20T21:46:35.706 worker-2 geracao {"req":125,"ms":65.82,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3560 chars de contexto)"}
+2026-10-20T21:46:35.721 worker-0 geracao {"req":129,"ms":65.2,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3506 chars de contexto)"}
+2026-10-20T21:46:35.754 worker-1 geracao {"req":131,"ms":64.83,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3466 chars de contexto)"}
+2026-10-20T21:46:35.776 MainThread encerramento {"status":"ok"}

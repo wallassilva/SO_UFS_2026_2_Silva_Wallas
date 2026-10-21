@@ -1,0 +1,202 @@
+2026-10-20T21:47:06.340 MainThread inicio {"id":"c5_pequeno_mmap_ctxpesado_r2","workers":4,"produtores":2,"mmap":true,"n_req":50,"indice":"dados/indice_pequeno"}
+2026-10-20T21:47:06.351 worker-1 consulta {"req":0}
+2026-10-20T21:47:06.351 worker-1 cache_miss {"req":0}
+2026-10-20T21:47:06.351 worker-3 consulta {"req":2}
+2026-10-20T21:47:06.351 worker-3 cache_miss {"req":2}
+2026-10-20T21:47:06.352 worker-2 consulta {"req":4}
+2026-10-20T21:47:06.352 worker-2 cache_miss {"req":4}
+2026-10-20T21:47:06.352 worker-0 consulta {"req":6}
+2026-10-20T21:47:06.352 worker-0 cache_miss {"req":6}
+2026-10-20T21:47:06.357 worker-3 recuperacao {"req":2,"trechos":13,"bytes":11263,"tokens_aprox":2815,"ms":5.57}
+2026-10-20T21:47:06.358 worker-1 recuperacao {"req":0,"trechos":13,"bytes":11329,"tokens_aprox":2832,"ms":6.4}
+2026-10-20T21:47:06.358 worker-0 recuperacao {"req":6,"trechos":13,"bytes":11551,"tokens_aprox":2887,"ms":5.64}
+2026-10-20T21:47:06.358 worker-2 recuperacao {"req":4,"trechos":13,"bytes":11656,"tokens_aprox":2914,"ms":6.34}
+2026-10-20T21:47:06.490 worker-3 geracao {"req":2,"ms":132.88,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11263 chars de contexto)"}
+2026-10-20T21:47:06.490 worker-3 consulta {"req":8}
+2026-10-20T21:47:06.490 worker-3 cache_miss {"req":8}
+2026-10-20T21:47:06.491 worker-3 recuperacao {"req":8,"trechos":13,"bytes":11525,"tokens_aprox":2881,"ms":1.15}
+2026-10-20T21:47:06.492 worker-1 geracao {"req":0,"ms":133.78,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11329 chars de contexto)"}
+2026-10-20T21:47:06.492 worker-1 consulta {"req":10}
+2026-10-20T21:47:06.492 worker-1 cache_miss {"req":10}
+2026-10-20T21:47:06.493 worker-1 recuperacao {"req":10,"trechos":13,"bytes":11436,"tokens_aprox":2859,"ms":1.06}
+2026-10-20T21:47:06.494 worker-0 geracao {"req":6,"ms":135.58,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11551 chars de contexto)"}
+2026-10-20T21:47:06.494 worker-0 consulta {"req":12}
+2026-10-20T21:47:06.494 worker-0 cache_miss {"req":12}
+2026-10-20T21:47:06.495 worker-0 recuperacao {"req":12,"trechos":13,"bytes":11482,"tokens_aprox":2870,"ms":0.93}
+2026-10-20T21:47:06.495 worker-2 geracao {"req":4,"ms":136.71,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11656 chars de contexto)"}
+2026-10-20T21:47:06.495 worker-2 consulta {"req":14}
+2026-10-20T21:47:06.495 worker-2 cache_miss {"req":14}
+2026-10-20T21:47:06.496 worker-2 recuperacao {"req":14,"trechos":13,"bytes":11275,"tokens_aprox":2818,"ms":0.95}
+2026-10-20T21:47:06.627 worker-3 geracao {"req":8,"ms":135.54,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11525 chars de contexto)"}
+2026-10-20T21:47:06.627 worker-3 consulta {"req":16}
+2026-10-20T21:47:06.627 worker-3 cache_miss {"req":16}
+2026-10-20T21:47:06.627 worker-1 geracao {"req":10,"ms":134.52,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11436 chars de contexto)"}
+2026-10-20T21:47:06.628 worker-1 consulta {"req":18}
+2026-10-20T21:47:06.628 worker-1 cache_miss {"req":18}
+2026-10-20T21:47:06.629 worker-3 recuperacao {"req":16,"trechos":13,"bytes":11462,"tokens_aprox":2865,"ms":1.43}
+2026-10-20T21:47:06.629 worker-2 geracao {"req":14,"ms":132.91,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11275 chars de contexto)"}
+2026-10-20T21:47:06.629 worker-2 consulta {"req":20}
+2026-10-20T21:47:06.629 worker-2 cache_miss {"req":20}
+2026-10-20T21:47:06.630 worker-1 recuperacao {"req":18,"trechos":13,"bytes":11574,"tokens_aprox":2893,"ms":1.79}
+2026-10-20T21:47:06.630 worker-0 geracao {"req":12,"ms":134.95,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11482 chars de contexto)"}
+2026-10-20T21:47:06.630 worker-0 consulta {"req":22}
+2026-10-20T21:47:06.630 worker-0 cache_miss {"req":22}
+2026-10-20T21:47:06.630 worker-2 recuperacao {"req":20,"trechos":13,"bytes":11494,"tokens_aprox":2873,"ms":1.19}
+2026-10-20T21:47:06.631 worker-0 recuperacao {"req":22,"trechos":13,"bytes":11532,"tokens_aprox":2883,"ms":0.96}
+2026-10-20T21:47:06.764 worker-3 geracao {"req":16,"ms":134.85,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11462 chars de contexto)"}
+2026-10-20T21:47:06.764 worker-3 consulta {"req":24}
+2026-10-20T21:47:06.764 worker-3 cache_miss {"req":24}
+2026-10-20T21:47:06.765 worker-3 recuperacao {"req":24,"trechos":13,"bytes":11512,"tokens_aprox":2878,"ms":1.13}
+2026-10-20T21:47:06.766 worker-2 geracao {"req":20,"ms":135.12,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11494 chars de contexto)"}
+2026-10-20T21:47:06.766 worker-2 consulta {"req":26}
+2026-10-20T21:47:06.766 worker-2 cache_miss {"req":26}
+2026-10-20T21:47:06.766 worker-1 geracao {"req":18,"ms":136.2,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11574 chars de contexto)"}
+2026-10-20T21:47:06.767 worker-1 consulta {"req":28}
+2026-10-20T21:47:06.767 worker-1 cache_miss {"req":28}
+2026-10-20T21:47:06.767 worker-0 geracao {"req":22,"ms":136.02,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11532 chars de contexto)"}
+2026-10-20T21:47:06.767 worker-0 consulta {"req":30}
+2026-10-20T21:47:06.767 worker-0 cache_miss {"req":30}
+2026-10-20T21:47:06.768 worker-2 recuperacao {"req":26,"trechos":13,"bytes":11472,"tokens_aprox":2868,"ms":1.73}
+2026-10-20T21:47:06.769 worker-1 recuperacao {"req":28,"trechos":13,"bytes":11388,"tokens_aprox":2847,"ms":1.74}
+2026-10-20T21:47:06.769 worker-0 recuperacao {"req":30,"trechos":13,"bytes":11693,"tokens_aprox":2923,"ms":1.7}
+2026-10-20T21:47:06.901 worker-3 geracao {"req":24,"ms":135.33,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11512 chars de contexto)"}
+2026-10-20T21:47:06.901 worker-3 consulta {"req":1}
+2026-10-20T21:47:06.901 worker-3 cache_miss {"req":1}
+2026-10-20T21:47:06.902 worker-3 recuperacao {"req":1,"trechos":13,"bytes":11553,"tokens_aprox":2888,"ms":1.18}
+2026-10-20T21:47:06.903 worker-1 geracao {"req":28,"ms":134.07,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11388 chars de contexto)"}
+2026-10-20T21:47:06.903 worker-1 consulta {"req":3}
+2026-10-20T21:47:06.903 worker-1 cache_miss {"req":3}
+2026-10-20T21:47:06.903 worker-2 geracao {"req":26,"ms":135.0,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11472 chars de contexto)"}
+2026-10-20T21:47:06.903 worker-2 consulta {"req":5}
+2026-10-20T21:47:06.903 worker-2 cache_miss {"req":5}
+2026-10-20T21:47:06.904 worker-1 recuperacao {"req":3,"trechos":13,"bytes":11608,"tokens_aprox":2902,"ms":1.02}
+2026-10-20T21:47:06.904 worker-2 recuperacao {"req":5,"trechos":13,"bytes":11261,"tokens_aprox":2815,"ms":1.06}
+2026-10-20T21:47:06.906 worker-0 geracao {"req":30,"ms":137.08,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11693 chars de contexto)"}
+2026-10-20T21:47:06.906 worker-0 consulta {"req":32}
+2026-10-20T21:47:06.906 worker-0 cache_miss {"req":32}
+2026-10-20T21:47:06.907 worker-0 recuperacao {"req":32,"trechos":13,"bytes":11370,"tokens_aprox":2842,"ms":1.03}
+2026-10-20T21:47:07.037 worker-2 geracao {"req":5,"ms":132.82,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11261 chars de contexto)"}
+2026-10-20T21:47:07.037 worker-2 consulta {"req":7}
+2026-10-20T21:47:07.037 worker-2 cache_miss {"req":7}
+2026-10-20T21:47:07.038 worker-3 geracao {"req":1,"ms":135.7,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11553 chars de contexto)"}
+2026-10-20T21:47:07.038 worker-3 consulta {"req":34}
+2026-10-20T21:47:07.038 worker-3 cache_miss {"req":34}
+2026-10-20T21:47:07.039 worker-2 recuperacao {"req":7,"trechos":13,"bytes":11268,"tokens_aprox":2817,"ms":1.59}
+2026-10-20T21:47:07.040 worker-3 recuperacao {"req":34,"trechos":13,"bytes":11478,"tokens_aprox":2869,"ms":1.64}
+2026-10-20T21:47:07.040 worker-1 geracao {"req":3,"ms":136.19,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11608 chars de contexto)"}
+2026-10-20T21:47:07.040 worker-1 consulta {"req":9}
+2026-10-20T21:47:07.040 worker-1 cache_miss {"req":9}
+2026-10-20T21:47:07.041 worker-1 recuperacao {"req":9,"trechos":13,"bytes":11628,"tokens_aprox":2907,"ms":0.96}
+2026-10-20T21:47:07.042 worker-0 geracao {"req":32,"ms":134.03,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11370 chars de contexto)"}
+2026-10-20T21:47:07.042 worker-0 consulta {"req":36}
+2026-10-20T21:47:07.042 worker-0 cache_miss {"req":36}
+2026-10-20T21:47:07.043 worker-0 recuperacao {"req":36,"trechos":13,"bytes":11416,"tokens_aprox":2854,"ms":0.98}
+2026-10-20T21:47:07.172 worker-2 geracao {"req":7,"ms":132.83,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11268 chars de contexto)"}
+2026-10-20T21:47:07.172 worker-2 consulta {"req":11}
+2026-10-20T21:47:07.172 worker-2 cache_miss {"req":11}
+2026-10-20T21:47:07.173 worker-2 recuperacao {"req":11,"trechos":13,"bytes":11450,"tokens_aprox":2862,"ms":0.94}
+2026-10-20T21:47:07.175 worker-3 geracao {"req":34,"ms":134.87,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11478 chars de contexto)"}
+2026-10-20T21:47:07.175 worker-3 consulta {"req":13}
+2026-10-20T21:47:07.175 worker-3 cache_miss {"req":13}
+2026-10-20T21:47:07.176 worker-3 recuperacao {"req":13,"trechos":13,"bytes":11454,"tokens_aprox":2863,"ms":0.85}
+2026-10-20T21:47:07.177 worker-0 geracao {"req":36,"ms":134.27,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11416 chars de contexto)"}
+2026-10-20T21:47:07.177 worker-0 consulta {"req":15}
+2026-10-20T21:47:07.177 worker-0 cache_miss {"req":15}
+2026-10-20T21:47:07.178 worker-1 geracao {"req":9,"ms":136.37,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11628 chars de contexto)"}
+2026-10-20T21:47:07.178 worker-1 consulta {"req":38}
+2026-10-20T21:47:07.178 worker-1 cache_miss {"req":38}
+2026-10-20T21:47:07.178 worker-0 recuperacao {"req":15,"trechos":13,"bytes":11530,"tokens_aprox":2882,"ms":1.18}
+2026-10-20T21:47:07.179 worker-1 recuperacao {"req":38,"trechos":13,"bytes":11461,"tokens_aprox":2865,"ms":0.83}
+2026-10-20T21:47:07.308 worker-2 geracao {"req":11,"ms":134.72,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11450 chars de contexto)"}
+2026-10-20T21:47:07.308 worker-2 consulta {"req":17}
+2026-10-20T21:47:07.308 worker-2 cache_miss {"req":17}
+2026-10-20T21:47:07.309 worker-2 recuperacao {"req":17,"trechos":13,"bytes":11457,"tokens_aprox":2864,"ms":0.99}
+2026-10-20T21:47:07.311 worker-3 geracao {"req":13,"ms":134.72,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11454 chars de contexto)"}
+2026-10-20T21:47:07.311 worker-3 consulta {"req":40}
+2026-10-20T21:47:07.311 worker-3 cache_miss {"req":40}
+2026-10-20T21:47:07.312 worker-3 recuperacao {"req":40,"trechos":13,"bytes":11371,"tokens_aprox":2842,"ms":1.0}
+2026-10-20T21:47:07.314 worker-1 geracao {"req":38,"ms":134.78,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11461 chars de contexto)"}
+2026-10-20T21:47:07.314 worker-1 consulta {"req":19}
+2026-10-20T21:47:07.314 worker-1 cache_miss {"req":19}
+2026-10-20T21:47:07.314 worker-0 geracao {"req":15,"ms":135.7,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11530 chars de contexto)"}
+2026-10-20T21:47:07.314 worker-0 consulta {"req":21}
+2026-10-20T21:47:07.314 worker-0 cache_miss {"req":21}
+2026-10-20T21:47:07.315 worker-1 recuperacao {"req":19,"trechos":13,"bytes":11555,"tokens_aprox":2888,"ms":1.15}
+2026-10-20T21:47:07.316 worker-0 recuperacao {"req":21,"trechos":13,"bytes":11392,"tokens_aprox":2848,"ms":1.64}
+2026-10-20T21:47:07.444 worker-2 geracao {"req":17,"ms":134.78,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11457 chars de contexto)"}
+2026-10-20T21:47:07.444 worker-2 consulta {"req":23}
+2026-10-20T21:47:07.444 worker-2 cache_miss {"req":23}
+2026-10-20T21:47:07.445 worker-2 recuperacao {"req":23,"trechos":13,"bytes":11582,"tokens_aprox":2895,"ms":1.08}
+2026-10-20T21:47:07.446 worker-3 geracao {"req":40,"ms":133.89,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11371 chars de contexto)"}
+2026-10-20T21:47:07.446 worker-3 consulta {"req":42}
+2026-10-20T21:47:07.446 worker-3 cache_miss {"req":42}
+2026-10-20T21:47:07.447 worker-3 recuperacao {"req":42,"trechos":13,"bytes":11481,"tokens_aprox":2870,"ms":1.07}
+2026-10-20T21:47:07.450 worker-0 geracao {"req":21,"ms":134.08,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11392 chars de contexto)"}
+2026-10-20T21:47:07.451 worker-0 consulta {"req":44}
+2026-10-20T21:47:07.451 worker-0 cache_miss {"req":44}
+2026-10-20T21:47:07.451 worker-1 geracao {"req":19,"ms":135.83,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11555 chars de contexto)"}
+2026-10-20T21:47:07.451 worker-1 consulta {"req":46}
+2026-10-20T21:47:07.451 worker-1 cache_miss {"req":46}
+2026-10-20T21:47:07.452 worker-0 recuperacao {"req":44,"trechos":13,"bytes":11481,"tokens_aprox":2870,"ms":1.14}
+2026-10-20T21:47:07.452 worker-1 recuperacao {"req":46,"trechos":13,"bytes":11249,"tokens_aprox":2812,"ms":0.94}
+2026-10-20T21:47:07.582 worker-2 geracao {"req":23,"ms":136.06,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11582 chars de contexto)"}
+2026-10-20T21:47:07.582 worker-2 consulta {"req":25}
+2026-10-20T21:47:07.582 worker-2 cache_miss {"req":25}
+2026-10-20T21:47:07.582 worker-3 geracao {"req":42,"ms":135.12,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11481 chars de contexto)"}
+2026-10-20T21:47:07.582 worker-3 consulta {"req":27}
+2026-10-20T21:47:07.583 worker-3 cache_miss {"req":27}
+2026-10-20T21:47:07.583 worker-2 recuperacao {"req":25,"trechos":13,"bytes":11363,"tokens_aprox":2840,"ms":1.24}
+2026-10-20T21:47:07.584 worker-3 recuperacao {"req":27,"trechos":13,"bytes":11477,"tokens_aprox":2869,"ms":0.97}
+2026-10-20T21:47:07.585 worker-1 geracao {"req":46,"ms":132.72,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11249 chars de contexto)"}
+2026-10-20T21:47:07.585 worker-1 consulta {"req":29}
+2026-10-20T21:47:07.585 worker-1 cache_miss {"req":29}
+2026-10-20T21:47:07.586 worker-1 recuperacao {"req":29,"trechos":13,"bytes":11335,"tokens_aprox":2833,"ms":1.09}
+2026-10-20T21:47:07.587 worker-0 geracao {"req":44,"ms":135.01,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11481 chars de contexto)"}
+2026-10-20T21:47:07.587 worker-0 consulta {"req":48}
+2026-10-20T21:47:07.587 worker-0 cache_miss {"req":48}
+2026-10-20T21:47:07.588 worker-0 recuperacao {"req":48,"trechos":13,"bytes":11249,"tokens_aprox":2812,"ms":1.19}
+2026-10-20T21:47:07.717 worker-2 geracao {"req":25,"ms":133.8,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11363 chars de contexto)"}
+2026-10-20T21:47:07.717 worker-2 consulta {"req":31}
+2026-10-20T21:47:07.717 worker-2 cache_miss {"req":31}
+2026-10-20T21:47:07.718 worker-2 recuperacao {"req":31,"trechos":13,"bytes":11721,"tokens_aprox":2930,"ms":0.98}
+2026-10-20T21:47:07.719 worker-3 geracao {"req":27,"ms":134.96,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11477 chars de contexto)"}
+2026-10-20T21:47:07.719 worker-3 consulta {"req":33}
+2026-10-20T21:47:07.719 worker-3 cache_miss {"req":33}
+2026-10-20T21:47:07.720 worker-3 recuperacao {"req":33,"trechos":13,"bytes":11656,"tokens_aprox":2914,"ms":0.93}
+2026-10-20T21:47:07.720 worker-1 geracao {"req":29,"ms":133.53,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11335 chars de contexto)"}
+2026-10-20T21:47:07.720 worker-1 consulta {"req":35}
+2026-10-20T21:47:07.720 worker-1 cache_miss {"req":35}
+2026-10-20T21:47:07.721 worker-1 recuperacao {"req":35,"trechos":13,"bytes":11484,"tokens_aprox":2871,"ms":0.84}
+2026-10-20T21:47:07.721 worker-0 geracao {"req":48,"ms":132.74,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11249 chars de contexto)"}
+2026-10-20T21:47:07.721 worker-0 consulta {"req":37}
+2026-10-20T21:47:07.721 worker-0 cache_miss {"req":37}
+2026-10-20T21:47:07.722 worker-0 recuperacao {"req":37,"trechos":13,"bytes":11586,"tokens_aprox":2896,"ms":0.86}
+2026-10-20T21:47:07.856 worker-2 geracao {"req":31,"ms":137.46,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11721 chars de contexto)"}
+2026-10-20T21:47:07.856 worker-2 consulta {"req":39}
+2026-10-20T21:47:07.856 worker-2 cache_miss {"req":39}
+2026-10-20T21:47:07.856 worker-1 geracao {"req":35,"ms":135.14,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11484 chars de contexto)"}
+2026-10-20T21:47:07.856 worker-1 consulta {"req":41}
+2026-10-20T21:47:07.856 worker-1 cache_miss {"req":41}
+2026-10-20T21:47:07.857 worker-3 geracao {"req":33,"ms":137.03,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11656 chars de contexto)"}
+2026-10-20T21:47:07.857 worker-3 consulta {"req":43}
+2026-10-20T21:47:07.857 worker-3 cache_miss {"req":43}
+2026-10-20T21:47:07.858 worker-2 recuperacao {"req":39,"trechos":13,"bytes":11488,"tokens_aprox":2872,"ms":1.62}
+2026-10-20T21:47:07.858 worker-1 recuperacao {"req":41,"trechos":13,"bytes":11425,"tokens_aprox":2856,"ms":1.52}
+2026-10-20T21:47:07.858 worker-3 recuperacao {"req":43,"trechos":13,"bytes":11486,"tokens_aprox":2871,"ms":1.3}
+2026-10-20T21:47:07.859 worker-0 geracao {"req":37,"ms":136.31,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11586 chars de contexto)"}
+2026-10-20T21:47:07.859 worker-0 consulta {"req":45}
+2026-10-20T21:47:07.859 worker-0 cache_miss {"req":45}
+2026-10-20T21:47:07.860 worker-0 recuperacao {"req":45,"trechos":13,"bytes":11456,"tokens_aprox":2864,"ms":0.92}
+2026-10-20T21:47:07.993 worker-1 geracao {"req":41,"ms":134.47,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11425 chars de contexto)"}
+2026-10-20T21:47:07.993 worker-1 consulta {"req":47}
+2026-10-20T21:47:07.993 worker-1 cache_miss {"req":47}
+2026-10-20T21:47:07.993 worker-2 geracao {"req":39,"ms":135.25,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11488 chars de contexto)"}
+2026-10-20T21:47:07.993 worker-2 consulta {"req":49}
+2026-10-20T21:47:07.993 worker-2 cache_miss {"req":49}
+2026-10-20T21:47:07.994 worker-3 geracao {"req":43,"ms":135.02,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11486 chars de contexto)"}
+2026-10-20T21:47:07.994 worker-1 recuperacao {"req":47,"trechos":13,"bytes":11411,"tokens_aprox":2852,"ms":1.4}
+2026-10-20T21:47:07.995 worker-2 recuperacao {"req":49,"trechos":13,"bytes":11475,"tokens_aprox":2868,"ms":1.47}
+2026-10-20T21:47:07.995 worker-0 geracao {"req":45,"ms":135.08,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11456 chars de contexto)"}
+2026-10-20T21:47:08.129 worker-1 geracao {"req":47,"ms":134.24,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11411 chars de contexto)"}
+2026-10-20T21:47:08.130 worker-2 geracao {"req":49,"ms":134.89,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (11475 chars de contexto)"}
+2026-10-20T21:47:08.152 MainThread encerramento {"status":"ok"}

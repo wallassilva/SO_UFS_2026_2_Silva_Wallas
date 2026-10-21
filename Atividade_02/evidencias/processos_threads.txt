@@ -1,0 +1,47 @@
+### PID 58714
+### threads (ps -L)
+    PID     TID PSR %CPU STAT COMMAND
+  58714   58714   3 18.8 Sl+  python3
+  58714   58716   2  0.0 Sl+  monitor
+  58714   58717   2  8.6 Sl+  worker-0
+  58714   58718   6 11.1 Sl+  worker-1
+  58714   58719   4  8.6 Sl+  worker-2
+  58714   58720   3 11.1 Sl+  worker-3
+  58714   58721   5  0.0 Sl+  produtor-0
+  58714   58722   7  0.0 Sl+  produtor-1
+### /proc/58714/status
+VmSize:	 1581228 kB
+VmHWM:	  100872 kB
+VmRSS:	  100872 kB
+RssAnon:	   76880 kB
+RssFile:	   23992 kB
+Threads:	8
+voluntary_ctxt_switches:	33
+nonvoluntary_ctxt_switches:	2
+### top -H
+top - 21:48:24 up 10:34,  1 user,  load average: 0,31, 0,55, 0,71
+Threads: 8 total, 0 running, 8 sleep, 0 d-sleep, 0 stopped, 0 zombie
+%Cpu(s):  3,7 us,  0,6 sy,  0,0 ni, 93,3 id,  1,2 wa,  0,6 hi,  0,6 si,  0,0 st 
+MiB Mem :  15746,0 total,    633,4 free,   5389,8 used,  10291,5 buff/cache     
+MiB Swap:   8192,0 total,   8192,0 free,      0,0 used.  10356,2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  58719 wallas    20   0 1581228 100876  23992 S  14,9   0,6   0:00.10 worker-2
+  58720 wallas    20   0 1581228 100876  23992 S   9,9   0,6   0:00.11 worker-3
+  58717 wallas    20   0 1581228 100876  23992 S   5,0   0,6   0:00.08 worker-0
+  58718 wallas    20   0 1581228 100876  23992 S   5,0   0,6   0:00.10 worker-1
+  58714 wallas    20   0 1581228 100876  23992 S   0,0   0,6   0:00.19 python3
+  58716 wallas    20   0 1581228 100876  23992 S   0,0   0,6   0:00.00 monitor
+  58721 wallas    20   0 1581228 100876  23992 S   0,0   0,6   0:00.00 produto+
+  58722 wallas    20   0 1581228 100876  23992 S   0,0   0,6   0:00.00 produto+
+
+### /proc/58714/io
+rchar: 57512922
+wchar: 13822
+syscr: 786
+syscw: 3
+read_bytes: 59748352
+write_bytes: 49152
+cancelled_write_bytes: 0
+### ollama (se existir)
+   1409 34464 2180776 ollama

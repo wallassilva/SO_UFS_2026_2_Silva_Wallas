@@ -1,0 +1,184 @@
+2026-10-20T21:47:51.321 MainThread inicio {"id":"c6_servico_falha_sem_retentativa_r2","workers":2,"produtores":2,"mmap":false,"n_req":40,"indice":"dados/indice_pequeno"}
+2026-10-20T21:47:51.335 worker-0 consulta {"req":0}
+2026-10-20T21:47:51.335 worker-0 cache_miss {"req":0}
+2026-10-20T21:47:51.335 worker-1 consulta {"req":2}
+2026-10-20T21:47:51.335 worker-1 cache_miss {"req":2}
+2026-10-20T21:47:51.339 worker-0 recuperacao {"req":0,"trechos":4,"bytes":3476,"tokens_aprox":869,"ms":4.17}
+2026-10-20T21:47:51.339 worker-0 geracao {"req":0,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.339 worker-0 falha {"req":0,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.339 worker-0 consulta {"req":4}
+2026-10-20T21:47:51.339 worker-0 cache_miss {"req":4}
+2026-10-20T21:47:51.340 worker-1 recuperacao {"req":2,"trechos":4,"bytes":3419,"tokens_aprox":854,"ms":4.25}
+2026-10-20T21:47:51.340 worker-1 geracao {"req":2,"ms":0.02,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.340 worker-1 falha {"req":2,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.340 worker-1 consulta {"req":6}
+2026-10-20T21:47:51.340 worker-1 cache_miss {"req":6}
+2026-10-20T21:47:51.341 worker-0 recuperacao {"req":4,"trechos":4,"bytes":3621,"tokens_aprox":905,"ms":1.66}
+2026-10-20T21:47:51.341 worker-1 recuperacao {"req":6,"trechos":4,"bytes":3529,"tokens_aprox":882,"ms":1.71}
+2026-10-20T21:47:51.342 worker-1 geracao {"req":6,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.342 worker-1 falha {"req":6,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.342 worker-1 consulta {"req":8}
+2026-10-20T21:47:51.342 worker-1 cache_miss {"req":8}
+2026-10-20T21:47:51.343 worker-1 recuperacao {"req":8,"trechos":4,"bytes":3554,"tokens_aprox":888,"ms":1.81}
+2026-10-20T21:47:51.397 worker-0 geracao {"req":4,"ms":56.34,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3621 chars de contexto)"}
+2026-10-20T21:47:51.398 worker-0 consulta {"req":10}
+2026-10-20T21:47:51.398 worker-0 cache_miss {"req":10}
+2026-10-20T21:47:51.399 worker-1 geracao {"req":8,"ms":55.67,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3554 chars de contexto)"}
+2026-10-20T21:47:51.399 worker-1 consulta {"req":12}
+2026-10-20T21:47:51.399 worker-1 cache_miss {"req":12}
+2026-10-20T21:47:51.401 worker-1 recuperacao {"req":12,"trechos":4,"bytes":3556,"tokens_aprox":889,"ms":2.1}
+2026-10-20T21:47:51.402 worker-1 geracao {"req":12,"ms":0.04,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.402 worker-1 falha {"req":12,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.402 worker-1 consulta {"req":14}
+2026-10-20T21:47:51.402 worker-1 cache_miss {"req":14}
+2026-10-20T21:47:51.402 worker-0 recuperacao {"req":10,"trechos":4,"bytes":3505,"tokens_aprox":876,"ms":4.3}
+2026-10-20T21:47:51.402 worker-0 geracao {"req":10,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.402 worker-0 falha {"req":10,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.402 worker-0 consulta {"req":16}
+2026-10-20T21:47:51.402 worker-0 cache_miss {"req":16}
+2026-10-20T21:47:51.405 worker-0 recuperacao {"req":16,"trechos":4,"bytes":3511,"tokens_aprox":877,"ms":2.53}
+2026-10-20T21:47:51.405 worker-1 recuperacao {"req":14,"trechos":4,"bytes":3444,"tokens_aprox":861,"ms":3.65}
+2026-10-20T21:47:51.406 worker-1 geracao {"req":14,"ms":0.03,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.406 worker-1 falha {"req":14,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.406 worker-1 consulta {"req":18}
+2026-10-20T21:47:51.406 worker-1 cache_miss {"req":18}
+2026-10-20T21:47:51.410 worker-1 recuperacao {"req":18,"trechos":4,"bytes":3587,"tokens_aprox":896,"ms":4.01}
+2026-10-20T21:47:51.460 worker-0 geracao {"req":16,"ms":55.26,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3511 chars de contexto)"}
+2026-10-20T21:47:51.460 worker-0 consulta {"req":20}
+2026-10-20T21:47:51.460 worker-0 cache_miss {"req":20}
+2026-10-20T21:47:51.465 worker-0 recuperacao {"req":20,"trechos":4,"bytes":3509,"tokens_aprox":877,"ms":4.57}
+2026-10-20T21:47:51.465 worker-0 geracao {"req":20,"ms":0.02,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.465 worker-0 falha {"req":20,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.465 worker-0 consulta {"req":22}
+2026-10-20T21:47:51.465 worker-0 cache_miss {"req":22}
+2026-10-20T21:47:51.466 worker-1 geracao {"req":18,"ms":56.03,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3587 chars de contexto)"}
+2026-10-20T21:47:51.466 worker-1 consulta {"req":24}
+2026-10-20T21:47:51.466 worker-1 cache_miss {"req":24}
+2026-10-20T21:47:51.467 worker-0 recuperacao {"req":22,"trechos":4,"bytes":3526,"tokens_aprox":881,"ms":1.75}
+2026-10-20T21:47:51.467 worker-0 geracao {"req":22,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.467 worker-0 falha {"req":22,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.467 worker-0 consulta {"req":26}
+2026-10-20T21:47:51.467 worker-0 cache_miss {"req":26}
+2026-10-20T21:47:51.468 worker-1 recuperacao {"req":24,"trechos":4,"bytes":3488,"tokens_aprox":872,"ms":2.09}
+2026-10-20T21:47:51.471 worker-0 recuperacao {"req":26,"trechos":4,"bytes":3568,"tokens_aprox":892,"ms":4.06}
+2026-10-20T21:47:51.523 worker-1 geracao {"req":24,"ms":55.09,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3488 chars de contexto)"}
+2026-10-20T21:47:51.524 worker-1 consulta {"req":28}
+2026-10-20T21:47:51.524 worker-1 cache_miss {"req":28}
+2026-10-20T21:47:51.525 worker-1 recuperacao {"req":28,"trechos":4,"bytes":3474,"tokens_aprox":868,"ms":0.88}
+2026-10-20T21:47:51.525 worker-1 geracao {"req":28,"ms":0.66,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.525 worker-1 falha {"req":28,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.525 worker-1 consulta {"req":30}
+2026-10-20T21:47:51.525 worker-1 cache_miss {"req":30}
+2026-10-20T21:47:51.527 worker-0 geracao {"req":26,"ms":55.79,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3568 chars de contexto)"}
+2026-10-20T21:47:51.527 worker-0 consulta {"req":32}
+2026-10-20T21:47:51.527 worker-0 cache_miss {"req":32}
+2026-10-20T21:47:51.528 worker-1 recuperacao {"req":30,"trechos":4,"bytes":3580,"tokens_aprox":895,"ms":2.03}
+2026-10-20T21:47:51.528 worker-1 geracao {"req":30,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.528 worker-1 falha {"req":30,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.528 worker-1 consulta {"req":1}
+2026-10-20T21:47:51.528 worker-1 cache_miss {"req":1}
+2026-10-20T21:47:51.530 worker-1 recuperacao {"req":1,"trechos":4,"bytes":3544,"tokens_aprox":886,"ms":1.87}
+2026-10-20T21:47:51.532 worker-0 recuperacao {"req":32,"trechos":4,"bytes":3535,"tokens_aprox":883,"ms":4.11}
+2026-10-20T21:47:51.585 worker-1 geracao {"req":1,"ms":55.66,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3544 chars de contexto)"}
+2026-10-20T21:47:51.586 worker-1 consulta {"req":34}
+2026-10-20T21:47:51.586 worker-1 cache_miss {"req":34}
+2026-10-20T21:47:51.587 worker-1 recuperacao {"req":34,"trechos":4,"bytes":3516,"tokens_aprox":879,"ms":1.07}
+2026-10-20T21:47:51.587 worker-0 geracao {"req":32,"ms":55.47,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3535 chars de contexto)"}
+2026-10-20T21:47:51.587 worker-0 consulta {"req":3}
+2026-10-20T21:47:51.587 worker-0 cache_miss {"req":3}
+2026-10-20T21:47:51.589 worker-0 recuperacao {"req":3,"trechos":4,"bytes":3559,"tokens_aprox":889,"ms":2.15}
+2026-10-20T21:47:51.590 worker-0 geracao {"req":3,"ms":0.04,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.590 worker-0 falha {"req":3,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.590 worker-0 consulta {"req":36}
+2026-10-20T21:47:51.590 worker-0 cache_miss {"req":36}
+2026-10-20T21:47:51.591 worker-0 recuperacao {"req":36,"trechos":4,"bytes":3540,"tokens_aprox":885,"ms":1.69}
+2026-10-20T21:47:51.642 worker-1 geracao {"req":34,"ms":55.27,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3516 chars de contexto)"}
+2026-10-20T21:47:51.642 worker-1 consulta {"req":5}
+2026-10-20T21:47:51.642 worker-1 cache_miss {"req":5}
+2026-10-20T21:47:51.645 worker-1 recuperacao {"req":5,"trechos":4,"bytes":3463,"tokens_aprox":865,"ms":2.71}
+2026-10-20T21:47:51.645 worker-1 geracao {"req":5,"ms":0.02,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.645 worker-1 falha {"req":5,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.645 worker-1 consulta {"req":38}
+2026-10-20T21:47:51.646 worker-1 cache_miss {"req":38}
+2026-10-20T21:47:51.647 worker-0 geracao {"req":36,"ms":55.51,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3540 chars de contexto)"}
+2026-10-20T21:47:51.647 worker-0 consulta {"req":7}
+2026-10-20T21:47:51.647 worker-0 cache_miss {"req":7}
+2026-10-20T21:47:51.648 worker-1 recuperacao {"req":38,"trechos":4,"bytes":3512,"tokens_aprox":878,"ms":2.34}
+2026-10-20T21:47:51.648 worker-0 recuperacao {"req":7,"trechos":4,"bytes":3448,"tokens_aprox":862,"ms":1.01}
+2026-10-20T21:47:51.648 worker-0 geracao {"req":7,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.648 worker-0 falha {"req":7,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.648 worker-0 consulta {"req":9}
+2026-10-20T21:47:51.648 worker-0 cache_miss {"req":9}
+2026-10-20T21:47:51.650 worker-0 recuperacao {"req":9,"trechos":4,"bytes":3571,"tokens_aprox":892,"ms":1.6}
+2026-10-20T21:47:51.650 worker-0 geracao {"req":9,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.650 worker-0 falha {"req":9,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.650 worker-0 consulta {"req":11}
+2026-10-20T21:47:51.650 worker-0 cache_miss {"req":11}
+2026-10-20T21:47:51.652 worker-0 recuperacao {"req":11,"trechos":4,"bytes":3558,"tokens_aprox":889,"ms":1.56}
+2026-10-20T21:47:51.652 worker-0 geracao {"req":11,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.652 worker-0 falha {"req":11,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.652 worker-0 consulta {"req":13}
+2026-10-20T21:47:51.652 worker-0 cache_miss {"req":13}
+2026-10-20T21:47:51.653 worker-0 recuperacao {"req":13,"trechos":4,"bytes":3591,"tokens_aprox":897,"ms":1.45}
+2026-10-20T21:47:51.653 worker-0 geracao {"req":13,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.653 worker-0 falha {"req":13,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.653 worker-0 consulta {"req":15}
+2026-10-20T21:47:51.653 worker-0 cache_miss {"req":15}
+2026-10-20T21:47:51.654 worker-0 recuperacao {"req":15,"trechos":4,"bytes":3473,"tokens_aprox":868,"ms":0.88}
+2026-10-20T21:47:51.703 worker-1 geracao {"req":38,"ms":55.21,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3512 chars de contexto)"}
+2026-10-20T21:47:51.703 worker-1 consulta {"req":17}
+2026-10-20T21:47:51.703 worker-1 cache_miss {"req":17}
+2026-10-20T21:47:51.705 worker-1 recuperacao {"req":17,"trechos":4,"bytes":3469,"tokens_aprox":867,"ms":1.84}
+2026-10-20T21:47:51.705 worker-1 geracao {"req":17,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.705 worker-1 falha {"req":17,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.705 worker-1 consulta {"req":19}
+2026-10-20T21:47:51.705 worker-1 cache_miss {"req":19}
+2026-10-20T21:47:51.708 worker-1 recuperacao {"req":19,"trechos":4,"bytes":3599,"tokens_aprox":899,"ms":2.29}
+2026-10-20T21:47:51.709 worker-0 geracao {"req":15,"ms":54.9,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3473 chars de contexto)"}
+2026-10-20T21:47:51.709 worker-0 consulta {"req":21}
+2026-10-20T21:47:51.710 worker-0 cache_miss {"req":21}
+2026-10-20T21:47:51.710 worker-0 recuperacao {"req":21,"trechos":4,"bytes":3521,"tokens_aprox":880,"ms":0.64}
+2026-10-20T21:47:51.764 worker-1 geracao {"req":19,"ms":56.2,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3599 chars de contexto)"}
+2026-10-20T21:47:51.764 worker-1 consulta {"req":23}
+2026-10-20T21:47:51.764 worker-1 cache_miss {"req":23}
+2026-10-20T21:47:51.766 worker-0 geracao {"req":21,"ms":55.37,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3521 chars de contexto)"}
+2026-10-20T21:47:51.766 worker-0 consulta {"req":25}
+2026-10-20T21:47:51.766 worker-0 cache_miss {"req":25}
+2026-10-20T21:47:51.766 worker-1 recuperacao {"req":23,"trechos":4,"bytes":3581,"tokens_aprox":895,"ms":1.89}
+2026-10-20T21:47:51.766 worker-1 geracao {"req":23,"ms":0.01,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.766 worker-1 falha {"req":23,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.766 worker-1 consulta {"req":27}
+2026-10-20T21:47:51.766 worker-1 cache_miss {"req":27}
+2026-10-20T21:47:51.767 worker-0 recuperacao {"req":25,"trechos":4,"bytes":3454,"tokens_aprox":863,"ms":1.62}
+2026-10-20T21:47:51.768 worker-1 recuperacao {"req":27,"trechos":4,"bytes":3566,"tokens_aprox":891,"ms":1.61}
+2026-10-20T21:47:51.768 worker-1 geracao {"req":27,"ms":0.02,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.768 worker-1 falha {"req":27,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.768 worker-1 consulta {"req":29}
+2026-10-20T21:47:51.768 worker-1 cache_miss {"req":29}
+2026-10-20T21:47:51.770 worker-1 recuperacao {"req":29,"trechos":4,"bytes":3432,"tokens_aprox":858,"ms":1.56}
+2026-10-20T21:47:51.770 worker-1 geracao {"req":29,"ms":0.02,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.770 worker-1 falha {"req":29,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.770 worker-1 consulta {"req":31}
+2026-10-20T21:47:51.770 worker-1 cache_miss {"req":31}
+2026-10-20T21:47:51.771 worker-1 recuperacao {"req":31,"trechos":4,"bytes":3648,"tokens_aprox":912,"ms":1.54}
+2026-10-20T21:47:51.772 worker-1 geracao {"req":31,"ms":0.02,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.772 worker-1 falha {"req":31,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.772 worker-1 consulta {"req":33}
+2026-10-20T21:47:51.772 worker-1 cache_miss {"req":33}
+2026-10-20T21:47:51.773 worker-1 recuperacao {"req":33,"trechos":4,"bytes":3588,"tokens_aprox":897,"ms":0.85}
+2026-10-20T21:47:51.822 worker-0 geracao {"req":25,"ms":54.78,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3454 chars de contexto)"}
+2026-10-20T21:47:51.822 worker-0 consulta {"req":35}
+2026-10-20T21:47:51.822 worker-0 cache_miss {"req":35}
+2026-10-20T21:47:51.825 worker-0 recuperacao {"req":35,"trechos":4,"bytes":3462,"tokens_aprox":865,"ms":2.31}
+2026-10-20T21:47:51.829 worker-1 geracao {"req":33,"ms":56.18,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3588 chars de contexto)"}
+2026-10-20T21:47:51.829 worker-1 consulta {"req":37}
+2026-10-20T21:47:51.829 worker-1 cache_miss {"req":37}
+2026-10-20T21:47:51.830 worker-1 recuperacao {"req":37,"trechos":4,"bytes":3528,"tokens_aprox":882,"ms":0.98}
+2026-10-20T21:47:51.830 worker-1 geracao {"req":37,"ms":0.02,"tentativas":1,"falhou":true,"resumo":"[serviço indisponível: resposta degradada]"}
+2026-10-20T21:47:51.830 worker-1 falha {"req":37,"origem":"geracao","erro":"falha injetada no serviço de geração"}
+2026-10-20T21:47:51.830 worker-1 consulta {"req":39}
+2026-10-20T21:47:51.830 worker-1 cache_miss {"req":39}
+2026-10-20T21:47:51.832 worker-1 recuperacao {"req":39,"trechos":4,"bytes":3528,"tokens_aprox":882,"ms":1.88}
+2026-10-20T21:47:51.880 worker-0 geracao {"req":35,"ms":54.85,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3462 chars de contexto)"}
+2026-10-20T21:47:51.888 worker-1 geracao {"req":39,"ms":55.4,"tentativas":1,"falhou":false,"resumo":"[simulado] resposta simulada (3528 chars de contexto)"}
+2026-10-20T21:47:51.909 MainThread encerramento {"status":"ok"}
