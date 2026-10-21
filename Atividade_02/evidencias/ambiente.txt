@@ -1,5 +1,5 @@
-### data: 2026-10-20T21:38:31-03:00
-### commit: 5815890
+### data: 2026-10-20T23:32:10-03:00
+### commit: aa29df1
 
 ##### $ uname -a
 Linux wallas 7.2.5-200.fc44.x86_64 #1 SMP PREEMPT_DYNAMIC Fri Sep 11 15:11:05 UTC 2026 x86_64 GNU/Linux
@@ -43,7 +43,7 @@ Thread(s) per core:                      2
 Core(s) per socket:                      4
 Socket(s):                               1
 Stepping:                                5
-CPU(s) scaling MHz:                      31%
+CPU(s) scaling MHz:                      33%
 CPU max MHz:                             3600,0000
 CPU min MHz:                             400,0000
 BogoMIPS:                                2380,80
@@ -77,52 +77,52 @@ Vulnerability Vmscape:                   Not affected
 
 ##### $ free -h
                total        used        free      shared  buff/cache   available
-Mem:            15Gi       5,2Gi       1,5Gi       874Mi       9,4Gi        10Gi
-Swap:          8,0Gi          0B       8,0Gi
+Mem:            15Gi       7,6Gi       1,4Gi       1,3Gi       6,9Gi       7,7Gi
+Swap:          8,0Gi       4,9Mi       8,0Gi
 
 ##### $ cat /proc/meminfo
 MemTotal:       16123908 kB
-MemFree:         1525004 kB
-MemAvailable:   10658712 kB
-Buffers:            4148 kB
-Cached:          9668400 kB
+MemFree:         1484156 kB
+MemAvailable:    8113284 kB
+Buffers:            2068 kB
+Cached:          7058468 kB
 SwapCached:            0 kB
-Active:          3836188 kB
-Inactive:        9247224 kB
-Active(anon):    3580464 kB
-Inactive(anon):    33928 kB
-Active(file):     255724 kB
-Inactive(file):  9213296 kB
-Unevictable:      787624 kB
+Active:          4626628 kB
+Inactive:        8579460 kB
+Active(anon):    3865960 kB
+Inactive(anon):  2385072 kB
+Active(file):     760668 kB
+Inactive(file):  6194388 kB
+Unevictable:      615832 kB
 Mlocked:             152 kB
 SwapTotal:       8388604 kB
-SwapFree:        8388604 kB
+SwapFree:        8383632 kB
 Zswap:                 0 kB
 Zswapped:              0 kB
-Dirty:              4444 kB
+Dirty:              3780 kB
 Writeback:             0 kB
-AnonPages:       4198680 kB
-Mapped:          1163820 kB
-Shmem:            895740 kB
-KReclaimable:     146344 kB
-Slab:             388208 kB
-SReclaimable:     146344 kB
-SUnreclaim:       241864 kB
-KernelStack:       23428 kB
-PageTables:        74488 kB
+AnonPages:       6761604 kB
+Mapped:          1240500 kB
+Shmem:           1350364 kB
+KReclaimable:     168348 kB
+Slab:             433080 kB
+SReclaimable:     168348 kB
+SUnreclaim:       264732 kB
+KernelStack:       26480 kB
+PageTables:        95484 kB
 SecPageTables:      2056 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    16450556 kB
-Committed_AS:   19738052 kB
+Committed_AS:   24946724 kB
 VmallocTotal:   34359738367 kB
-VmallocUsed:       96268 kB
+VmallocUsed:       99540 kB
 VmallocChunk:          0 kB
 Percpu:             9408 kB
 HardwareCorrupted:     0 kB
 AnonHugePages:         0 kB
-ShmemHugePages:   743424 kB
+ShmemHugePages:   927744 kB
 ShmemPmdMapped:        0 kB
 FileHugePages:         0 kB
 FilePmdMapped:         0 kB
@@ -156,26 +156,26 @@ nvme0n1     259:0    0 931,5G  0 disk
 
 ##### $ df -h
 Sist. Arq.      Tam. Usado Disp. Uso% Montado em
-/dev/nvme0n1p6  580G   43G  536G   8% /
+/dev/nvme0n1p6  580G   45G  535G   8% /
 devtmpfs        7,7G     0  7,7G   0% /dev
-tmpfs           7,7G   29M  7,7G   1% /dev/shm
+tmpfs           7,7G   40M  7,7G   1% /dev/shm
 efivarfs        374K  144K  226K  39% /sys/firmware/efi/efivars
-tmpfs           3,1G  2,1M  3,1G   1% /run
+tmpfs           3,1G  2,5M  3,1G   1% /run
 none            1,0M     0  1,0M   0% /run/credentials/systemd-journald.service
 none            1,0M     0  1,0M   0% /run/credentials/systemd-resolved.service
-/dev/nvme0n1p6  580G   43G  536G   8% /home
-tmpfs           7,7G  5,2M  7,7G   1% /tmp
+/dev/nvme0n1p6  580G   45G  535G   8% /home
+tmpfs           7,7G  5,3M  7,7G   1% /tmp
 /dev/nvme0n1p5  2,0G  528M  1,3G  29% /boot
 /dev/nvme0n1p1  196M   52M  145M  27% /boot/efi
 tmpfs           1,6G  8,1M  1,6G   1% /run/user/1000
 
 ##### $ swapon --show
 NAME       TYPE      SIZE USED PRIO
-/dev/zram0 partition   8G   0B  100
+/dev/zram0 partition   8G 4,9M  100
 
 ##### $ zramctl
-NAME       ALGORITHM DISKSIZE DATA COMPR TOTAL STREAMS MOUNTPOINT
-/dev/zram0 lzo-rle         8G   4K   80B   12K         [SWAP]
+NAME       ALGORITHM DISKSIZE  DATA COMPR TOTAL STREAMS MOUNTPOINT
+/dev/zram0 lzo-rle         8G  4,9M    1M    2M         [SWAP]
 
 ##### $ findmnt -no FSTYPE,SOURCE /
 btrfs /dev/nvme0n1p6[/root]
@@ -199,9 +199,30 @@ bash: linha 1: nvidia-smi: comando não encontrado
 ##### $ vmstat 1 3
 procs -----------memory---------- ---swap-- -----io---- -system-- -------cpu-------
  r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st gu
- 0  0      0 1518764  4148 9814992   0    0   114   932 2316    7  7  2 91  0  0  0
- 0  0      0 1478220  4148 9857592   0    0     0   252 2057 2842  2  1 96  0  0  0
- 0  0      0 1490036  4148 9855508   0    0     0     0 1357 1475  1  1 98  0  0  0
+ 0  0   4972 1470200  2068 7231776   0    0   522   988 2617    7  7  2 91  0  0  0
+ 0  0   4972 1492460  2068 7232128   0    0     0   464 2211 1805  3  2 95  0  0  0
+ 1  0   4972 1490184  2068 7232128   0    0     0   508 4212 3765  3  3 94  0  0  0
 
 ##### $ iostat -xz 1 3
-bash: linha 1: iostat: comando não encontrado
+Linux 7.2.5-200.fc44.x86_64 (wallas) 	20/10/2026 	_x86_64_	(8 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           6,76    0,02    2,02    0,07    0,00   91,13
+
+Device            r/s     rkB/s   rrqm/s  %rrqm r_await rareq-sz     w/s     wkB/s   wrqm/s  %wrqm w_await wareq-sz     d/s     dkB/s   drqm/s  %drqm d_await dareq-sz     f/s f_await  aqu-sz  %util
+nvme0n1          7,69    522,12     0,23   2,86    0,92    67,87   39,13    988,34     0,10   0,25    1,26    25,26    1,70   1755,06     0,00   0,00    0,73  1032,36    1,35    0,28    0,06   0,37
+zram0            0,00      0,03     0,00   0,00    0,00    16,46    0,03      0,11     0,00   0,00    0,01     4,01    0,00      0,00     0,00   0,00    0,00     0,00    0,00    0,00    0,00   0,00
+
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           4,80    0,00    3,33    0,00    0,00   91,87
+
+Device            r/s     rkB/s   rrqm/s  %rrqm r_await rareq-sz     w/s     wkB/s   wrqm/s  %wrqm w_await wareq-sz     d/s     dkB/s   drqm/s  %drqm d_await dareq-sz     f/s f_await  aqu-sz  %util
+
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           8,41    0,00    3,09    0,00    0,00   88,50
+
+Device            r/s     rkB/s   rrqm/s  %rrqm r_await rareq-sz     w/s     wkB/s   wrqm/s  %wrqm w_await wareq-sz     d/s     dkB/s   drqm/s  %drqm d_await dareq-sz     f/s f_await  aqu-sz  %util
+
+
