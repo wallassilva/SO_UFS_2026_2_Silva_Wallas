@@ -1,0 +1,26 @@
+# 2026-11-10T21:17:26-03:00
+Solicitado: NanoCpus=500000000 Memory=268435456 MemorySwap=268435456 PidsLimit=64
+cgroup do conteiner (visao do host): /system.slice/docker-5735c171f279debf2239fcc948e5d7db9051edcaffe1a0b33d3e440721b034aa.scope
+EFETIVO host  cpu.max = 50000 100000
+EFETIVO host  memory.max = 268435456
+EFETIVO host  memory.swap.max = 0
+EFETIVO host  pids.max = 64
+EFETIVO dentro cpu.max = 50000 100000
+EFETIVO dentro memory.max = 268435456
+EFETIVO dentro memory.swap.max = 0
+EFETIVO dentro pids.max = 64
+--- cpu.stat
+usage_usec 143202
+user_usec 110499
+system_usec 32703
+nice_usec 0
+core_sched.force_idle_usec 0
+nr_periods 3
+nr_throttled 1
+throttled_usec 3528
+nr_bursts 0
+burst_usec 0
+--- limites ancestrais
+ancestral /system.slice cpu.max = max 100000
+ancestral /system.slice memory.max = max
+ancestral /system.slice pids.max = max

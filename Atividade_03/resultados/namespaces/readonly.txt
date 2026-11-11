@@ -1,0 +1,22 @@
+# read-only 2026-11-10T20:58:54-03:00  (MOUNT_OPT=ro)
+## Teste 1: usuario 65534, /dados:ro
+uid=65534(nobody) gid=65534(nogroup) groups=65534(nogroup)
+--- leitura
+Documento sintetico
+--- escrita em /dados
+touch: cannot touch '/dados/novo.txt': Read-only file system
+ESCRITA_NEGADA
+--- controle: escrita em /tmp (tmpfs)
+ESCRITA_TMP_OK
+--- controle: escrita em / (rootfs read-only)
+touch: cannot touch '/raiz.txt': Read-only file system
+ESCRITA_RAIZ_NEGADA
+--- mountinfo
+1277 1269 0:36 /home/USUARIO/Projetos/SO/Atividade_03/dados_demo /dados ro,relatime - btrfs /dev/nvme0n1p6 rw,seclabel,compress=zstd:1,ssd,discard=async,space_cache=v2,subvolid=257,subvol=/home
+## Teste 2 (A/B): mesma identidade do dono (1000:1000), rw vs ro
+rw: escrita OK
+touch: cannot touch '/dados/controle_ro.txt': Read-only file system
+ro: escrita negada
+## No host, apos os testes:
+total 4
+-rw-r--r--. 1 USUARIO USUARIO 20 nov 10 20:58 texto.txt

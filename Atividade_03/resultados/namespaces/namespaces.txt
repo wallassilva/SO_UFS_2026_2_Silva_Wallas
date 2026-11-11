@@ -1,0 +1,21 @@
+# coleta 2026-11-10T20:58:54-03:00
+== so_a3_nsA
+PID_host=32286
+PID1_comm=sleep
+pid=pid:[4026533097]
+mnt=mnt:[4026533094]
+net=net:[4026533099]
+interfaces=lo 
+== so_a3_nsB
+PID_host=32347
+PID1_comm=sleep
+pid=pid:[4026533245]
+mnt=mnt:[4026533170]
+net=net:[4026533247]
+interfaces=lo 
+== comparacao (terminal do host = readlink /proc/self/ns/*; valido se o daemon e nativo)
+| recurso | A | B | terminal | A vs B |
+|---|---|---|---|---|
+| pid | pid:[4026533097] | pid:[4026533245] | pid:[4026531836] | DIFERENTES |
+| mnt | mnt:[4026533094] | mnt:[4026533170] | mnt:[4026531832] | DIFERENTES |
+| net | net:[4026533099] | net:[4026533247] | net:[4026531833] | DIFERENTES |

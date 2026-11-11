@@ -1,0 +1,17 @@
+# coletado em 2026-11-10T20:58:15-03:00
+Linux 7.2.5-200.fc44.x86_64 #1 SMP PREEMPT_DYNAMIC Fri Sep 11 15:11:05 UTC 2026 x86_64
+VERSION_ID=44
+PRETTY_NAME="Fedora Linux 44 (Workstation Edition)"
+virtualizacao=none   # none = sem VM
+CPUs logicas=8
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       6,6Gi       893Mi       842Mi       8,5Gi       8,8Gi
+SELinux=Enforcing
+cgroup_fs=cgroup2fs   # cgroup2fs = v2
+controladores=cpuset cpu io memory hugetlb pids rdma misc dmem
+Docker cliente=29.8.0 servidor=29.8.0
+Docker Compose version v5.5.1
+Cgroup=2 Driver=systemd Runtime=runc Security=[name=seccomp,profile=builtin name=cgroupns]
+default
+IMAGEM_LAB=python@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+commit=dfbde138a317369b1b8a248b022bb8498dc331c2
